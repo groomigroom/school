@@ -58,3 +58,11 @@ file -> new -> Java Project
 
 module 체크 해제하기
 
+
+이클립스 윈도우 빌더 마켓 플레이스 install에서
+
+name에
+
+WindowBuilder
+
+https://download.eclipse.org/windowbuilder/latest/
