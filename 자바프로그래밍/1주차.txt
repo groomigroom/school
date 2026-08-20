@@ -66,3 +66,10 @@ name에
 WindowBuilder
 
 https://download.eclipse.org/windowbuilder/latest/
+
+
+사용자/user/에서
+
+.eclipse
+
+eclipse-workspace 폴더 삭제
