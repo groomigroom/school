@@ -6,7 +6,7 @@ https://www.oracle.com/java/technologies/
 윈도우에서
 시스템 변수 새로 만들기
 
-경로는
+변수값이
 
 C:\Program Files\Java\jdk-25.0.2
 
