@@ -20,3 +20,8 @@ Path에다가
 %JAVA_HOME%\bin 을 새로 만들기
 
 javac -version
+
+----------------------
+폴더로 이동
+
+C:\Users\user>cd C:\Users\user\Desktop\javatest
