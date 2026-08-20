@@ -73,3 +73,12 @@ https://download.eclipse.org/windowbuilder/latest/
 .eclipse
 
 eclipse-workspace 폴더 삭제
+
+설치
+
+https://www.eclipse.org/downloads/packages/release/2024-12/r
+
+Eclipse IDE for Java Developers
+
+x86_64
+
