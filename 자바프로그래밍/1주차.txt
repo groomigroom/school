@@ -54,3 +54,7 @@ public class GroomiJava {
 자바에서 가장 큰 단위는 프로젝트
 
 
+file -> new -> Java Project
+
+
+
