@@ -36,3 +36,17 @@ C:\Users\user\Desktop\javatest>javac GroomiJava.java
 
 C:\Users\user\Desktop\javatest>java GroomiJava
 Kimgroom
+
+
+----------------------
+
+기본 형태
+
+public class GroomiJava {
+//자바에는 클래스들이 겁나 많다
+	public static void main(String[] args) {
+		System.out.println("Kimgroom");
+	}
+}
+
+----------------------------------------------------------------------------------------
