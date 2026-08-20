@@ -18,3 +18,5 @@ JAVA_HOME
 Path에다가
 
 %JAVA_HOME%\bin 을 새로 만들기
+
+javac -version
