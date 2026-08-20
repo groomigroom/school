@@ -25,3 +25,7 @@ javac -version
 폴더로 이동
 
 C:\Users\user>cd C:\Users\user\Desktop\javatest
+
+
+dir로 터미널에서
+현재 위치의 파일들 확인 가능
