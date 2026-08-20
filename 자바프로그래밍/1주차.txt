@@ -3,3 +3,5 @@ java -version
 https://www.oracle.com/java/technologies/
 일단 21버전??
 
+윈도우에서
+시스템 변수 새로 만들기
