@@ -2,3 +2,7 @@ IT 는 정보통신
 
 ITC
 
+IoT
+
+AI
+
