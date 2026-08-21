@@ -22,3 +22,7 @@ https://www.microchip.com/en-us/tools-resources/develop/microchip-studio
 설치하기
 
 스위치가 pic이 되게..
+
+
+cp210x
+구글에 검색
