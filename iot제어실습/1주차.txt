@@ -30,3 +30,6 @@ cp210x
 https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
 
 CP210x Windows Drivers
+
+
+CP210xVCPInstaller_x64.exe
