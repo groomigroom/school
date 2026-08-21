@@ -26,3 +26,7 @@ https://www.microchip.com/en-us/tools-resources/develop/microchip-studio
 
 cp210x
 구글에 검색
+
+https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+
+
