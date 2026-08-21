@@ -15,3 +15,8 @@ AI agency
 
 
 마이크로 프로세스로 제어 그리고 마지막에 통신
+
+
+https://www.microchip.com/en-us/tools-resources/develop/microchip-studio
+
+설치하기
