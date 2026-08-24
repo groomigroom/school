@@ -3,3 +3,6 @@ ai agent
 하는거
 
 gpt는 codex
+
+
+vscode cline 확장 프로그램 설치하기
