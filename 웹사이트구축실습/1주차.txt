@@ -6,3 +6,8 @@ gpt는 codex
 
 
 vscode cline 확장 프로그램 설치하기
+
+
+https://aistudio.google.com/prompts/new_chat
+
+여기 왼쪽 하단에서 get api key
