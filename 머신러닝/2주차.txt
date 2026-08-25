@@ -35,3 +35,12 @@ import pandas as pd
 
 #버전 설치 확인하기
 print(pd.__version__)
+
+
+sr = pd.Series(['코토네', '이지우', '정하연', '윤서연'], 
+               index=['메인 래퍼', '메인 보컬', '메인 댄서', '1번'])
+
+print('-'*25)
+print(sr)
+
+
