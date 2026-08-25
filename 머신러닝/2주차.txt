@@ -20,3 +20,9 @@ https://wikidocs.net/book/2155
 tensorflow
 
 
+!pip list | grep num
+!pip list | grep pan
+!pip list | grep mat
+
+이런식으로도 코랩에서 라이브러리 설치 여부 검색 가능
+
