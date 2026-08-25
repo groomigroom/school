@@ -43,4 +43,9 @@ sr = pd.Series(['코토네', '이지우', '정하연', '윤서연'],
 print('-'*25)
 print(sr)
 
+print('시리즈의 값 : {}'.format(sr.values))
+print('시리즈의 인덱스 : {}'.format(sr.index))
+
+
+
 
