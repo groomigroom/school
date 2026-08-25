@@ -28,6 +28,7 @@ tensorflow
 
 pandas---------------------------
 
+판다스에서 지금은 패널 안씀...
 
 import pandas as pd
 
