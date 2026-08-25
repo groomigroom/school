@@ -6,3 +6,7 @@ https://wikidocs.net/book/2155
 !ls -la
 로 코랩에서
 파일 리스트를 보여줌
+
+
+!pip list
+로 코랩에서
