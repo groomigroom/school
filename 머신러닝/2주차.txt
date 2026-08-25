@@ -1,3 +1,8 @@
 https://wikidocs.net/book/2155
 
 위키독스에서 책
+
+
+!ls -la
+로 코랩에서
+파일 리스트를 보여줌
