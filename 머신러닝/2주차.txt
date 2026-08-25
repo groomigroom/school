@@ -14,3 +14,9 @@ https://wikidocs.net/book/2155
 
 머신러닝에서 기계에게 가르키는게 숫자로 가르킴
 
+
+선형대수
+
+tensorflow
+
+
