@@ -10,3 +10,7 @@ https://wikidocs.net/book/2155
 
 !pip list
 로 코랩에서
+.....
+
+머신러닝에서 기계에게 가르키는게 숫자로 가르킴
+
