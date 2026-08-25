@@ -26,3 +26,11 @@ tensorflow
 
 이런식으로도 코랩에서 라이브러리 설치 여부 검색 가능
 
+pandas---------------------------
+
+
+import pandas as pd
+
+
+#버전 설치 확인하기
+print(pd.__version__)
