@@ -36,6 +36,7 @@ import pandas as pd
 #버전 설치 확인하기
 print(pd.__version__)
 
+#시리즈
 
 sr = pd.Series(['코토네', '이지우', '정하연', '윤서연'], 
                index=['메인 래퍼', '메인 보컬', '메인 댄서', '1번'])
@@ -58,5 +59,26 @@ dtype: object
 """
 
 
+#데이터 프레임
+
+values = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+index = ['김', '구', '름']
+columns = ['구', '름', '이']
+
+df = pd.DataFrame(values, index=index, columns=columns)
+
+print('구름이의 데이터프레임 출력 :')
+print('-'*18)
+print(df)
+
+
+"""
+구름이의 데이터프레임 출력 :
+------------------
+   구  름  이
+김  1  2  3
+구  4  5  6
+름  7  8  9
+"""
 
 
