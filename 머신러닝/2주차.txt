@@ -192,6 +192,8 @@ Name: 학번, dtype: object
 
 numpy
 
+외부에 있는 행렬을 처리하는게 numpy
+
 
 import numpy as np
 
