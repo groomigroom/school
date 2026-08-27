@@ -22,3 +22,26 @@ public void actionPerformed(ActionEvent e) {
 			}
 
 여기 메소드 사이에 할거 쓰는거
+
+
+----------------------------------------------
+
+JButton btnNewButton = new JButton("값 넣기");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				textField.setText("안녕하세요");
+			}
+		});
+		btnNewButton.setBounds(263, 103, 97, 23);
+		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("값 가져오기");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String value = textField.getText();
+				System.out.println("입력값: " +  value);
+			}
+		});
+		btnNe
+
+---------------------------------------
