@@ -9,3 +9,4 @@ ctrl alt 아래쪽 화살표가 아래로 줄 복사
 alt 위 아래로 줄 교환 가능
 
 ctrl shift / 가 블록 주석 처리
+위에꺼 원래데로 돌릴 때는 ctrl shift \ 임/.
