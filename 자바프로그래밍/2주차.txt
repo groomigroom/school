@@ -17,3 +17,8 @@ windowBuilder Swing Designer -> JFrame
 
 windowbuilder에서 absolute layout
 위아래 경계 없애주는거
+
+public void actionPerformed(ActionEvent e) {
+			}
+
+여기 메소드 사이에 할거 쓰는거
