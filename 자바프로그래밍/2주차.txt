@@ -16,3 +16,4 @@ ctrl shift / 가 블록 주석 처리
 windowBuilder Swing Designer -> JFrame
 
 windowbuilder에서 absolute layout
+위아래 경계 없애주는거
