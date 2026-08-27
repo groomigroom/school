@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'KkuBulLim';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/BMkkubulimTTF-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'KkuBulLim';
+}
+
+.box1 {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #191919;
+    position: relative;
+}
+
+.box1>p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: boxp 1s linear 0s;
+}
+
+@keyframes boxp {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.groomi_img {
+    height: 200px;
+    border-radius: 25px;
+}
+
+nav {
+    margin-left: 150px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td,
+table th,
+table caption {
+    border: 5px solid #191919;
+}
