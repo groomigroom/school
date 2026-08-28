@@ -35,3 +35,12 @@ accuracy_score()
 
 from sklearn.metrics import accuracy_score() as accuracy
 accuracy()
+
+패키지 설치하기
+
+pip install pydataset
+
+주피터 노트북에서는
+!pip install pydataset
+
+
