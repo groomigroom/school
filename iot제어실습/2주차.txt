@@ -6,3 +6,6 @@ Internal 내부의
 SRAM
 
 반도체? 판에 a는 address
+
+주소 하나에 1바이트 저장됨..
+
