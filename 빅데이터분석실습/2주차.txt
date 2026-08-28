@@ -19,3 +19,11 @@ load_dataset 도 있음....
 
 import sklearn.metrics
 sklearn.metrics.accuracy_score()
+
+#metrics만 불러올 때는
+
+from sklearn import metrics
+metrics.accuracy_score()
+
+from sklearn.metrics import accuracy_score()
+accuracy_score()
