@@ -13,3 +13,9 @@ seaborn.countplot(x = var)
 load_dataset 도 있음....
 
 함수 사용법이 궁금할 때는 help 함수??????????
+
+
+패키지명.모듈명.함수명()으로 작성해야함
+
+import sklearn.metrics
+sklearn.metrics.accuracy_score()
