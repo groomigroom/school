@@ -10,4 +10,6 @@ seaborn.countplot(x = var)
 그래프 그려주는 패키지
 
 
-load_d
+load_dataset 도 있음....
+
+
