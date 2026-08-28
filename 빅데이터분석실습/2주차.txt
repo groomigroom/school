@@ -44,3 +44,11 @@ pip install pydataset
 !pip install pydataset
 
 pydataset.data()
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Pandas
+
+import Pandas
+
+print(pandas.__version__)
