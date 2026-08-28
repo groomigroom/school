@@ -52,3 +52,7 @@ Pandas
 import Pandas
 
 print(pandas.__version__)
+
+시리즈(인덱스번호도 가능)????
+
+
