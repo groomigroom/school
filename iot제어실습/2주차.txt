@@ -9,3 +9,7 @@ SRAM
 
 주소 하나에 1바이트 저장됨..
 
+build solution 하기
+
+성공하기
+
