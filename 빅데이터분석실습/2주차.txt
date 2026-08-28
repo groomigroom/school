@@ -67,4 +67,4 @@ csv 파일 불러오기..
 
 read_excel()
 
-usecols()
+usecols=
