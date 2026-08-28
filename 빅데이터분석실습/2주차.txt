@@ -9,3 +9,5 @@ seaborn.countplot(x = var)
 
 그래프 그려주는 패키지
 
+
+load_d
