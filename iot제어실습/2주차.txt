@@ -1,4 +1,6 @@
 eeprom에 설정 희망 온도가 저장됨...
 에어컨 예시로 보면
 
+Internal 내부의
 
+SRAM
