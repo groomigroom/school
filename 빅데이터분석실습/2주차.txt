@@ -1,1 +1,11 @@
-sdfsdf
+패키지
+
+import seaborn
+
+var = ['a', 'a', 'b', 'c']
+var
+
+seaborn.countplot(x = var)
+
+그래프 그려주는 패키지
+
