@@ -14,3 +14,7 @@ sb.countplot(x = var)
 
 df = sb.load_dataset('titanic')
 df
+
+#---------------------------------
+
+sb.countplot(data = df, x = 'pclass')
