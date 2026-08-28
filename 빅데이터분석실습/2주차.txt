@@ -29,3 +29,6 @@ metrics.accuracy_score()
 
 from sklearn.metrics import accuracy_score()
 accuracy_score()
+
+from sklearn.metrics import accuracy_score() as accuracy
+accuracy()
