@@ -56,4 +56,7 @@ print(pandas.__version__)
 시리즈(인덱스번호도 가능)????
 
 DataFrame도......
+변수명.loc[인덱스_이름]
+
+.iloc도 있음.
 
