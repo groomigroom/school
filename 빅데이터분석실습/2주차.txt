@@ -12,4 +12,4 @@ seaborn.countplot(x = var)
 
 load_dataset 도 있음....
 
-
+함수 사용법이 궁금할 때는 help 함수??????????
