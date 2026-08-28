@@ -4,3 +4,5 @@ eeprom에 설정 희망 온도가 저장됨...
 Internal 내부의
 
 SRAM
+
+반도체? 판에 a는 address
