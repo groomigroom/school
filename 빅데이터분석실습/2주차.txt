@@ -68,3 +68,9 @@ csv 파일 불러오기..
 read_excel()
 
 usecols=
+
+header=none
+
+head()
+
+tail()
