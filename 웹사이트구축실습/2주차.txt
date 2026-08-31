@@ -10,14 +10,14 @@ V8엔진
 
 C:\Users\user>nslookup www.naver.com
 서버:    ns.lgtelecom.com
-Address:  164.124.101.2
+Address:  xxx.xxx.xxx.xxx
 
 권한 없는 응답:
 이름:    www.naver.com.nheos.com
-Addresses:  223.130.192.248
-          223.130.200.219
-          223.130.200.236
-          223.130.192.247
+Addresses:  xxx.xxx.xxx.xxx
+          xxx.xxx.xxx.xxx
+          xxx.xxx.xxx.xxx
+          xxx.xxx.xxx.xxx
 Aliases:  www.naver.com
 
 
