@@ -106,3 +106,28 @@ Matplotlib
 
 
 --------------------------222222222222222-------------55555555555347598275873285732958329085932859328593285932859832958329583295832958329085932859328590328593285
+
+
+
+x = np.array([1,2,3])
+y = np.array([4,5,6])
+result = np.divide(x, y)
+print(result)
+reult2 =  result[0]
+reult1 = result[1]
+for i in range(2220):
+    print()
+    print(i + i)
+    print(reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + +reult1 + reult2 + reult2 + reult2 + reult2 + reult2 +reult1 + reult2 + reult2 + reult2 + reult2 +reult1 + reult2 + reult2 + reult2 +reult1 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2)
+    reult2str = str(reult2)
+    print(reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str+reult2str, end='')
+    print(str(reult1)+reult2str+str(reult1)+reult2str+str(reult1)+reult2str+str(reult1)+reult2str+str(reult1)+reult2str+str(reult1)+reult2str+str(reult1)+reult2str+str(reult1)+reult2str+str(reult1)+reult2str+str(reult1)+reult2str, end='')
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
