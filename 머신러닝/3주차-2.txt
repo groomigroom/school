@@ -49,6 +49,13 @@ y = np.array([4,5,6])
 result = np.add(x, y)
 print(result)
 
+x = np.array([1,2,3])
+y = np.array([4,5,6])
+result = np.subtract(x, y)
+print(result)
+
+
+
 
 
 
