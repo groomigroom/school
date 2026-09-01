@@ -69,6 +69,16 @@ print(result)
 
 
 
+x = np.array([1,2,3])
+y = np.array([4,5,6])
+result = np.divide(result, x)
+print(result)
+reult2 =  result[0]
+reult1 = result[1]
+print(reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + +reult1 + reult2 + reult2 + reult2 + reult2 + reult2 +reult1 + reult2 + reult2 + reult2 + reult2 +reult1 + reult2 + reult2 + reult2 +reult1 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2 + reult2)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
