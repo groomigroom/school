@@ -1,4 +1,6 @@
 https://wikidocs.net/book/2155
 
+numpy를 넘어서는 행렬 처리 라이브러리는 아직 없다.
+
 
 
