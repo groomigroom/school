@@ -11,3 +11,37 @@ literal
 final
 final int MAX_BOX_SIZE = 4;
 
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+package ThreedayGroomi;
+
+public class Test001 {
+
+	public static void main(String[] args) {
+		int price = 120000, sale = 1200;
+		System.out.println("도넛 가격: " + price + "원");
+		price = sale;
+		System.out.println("도넛 가격: " + price + "원이다.");
+		price *= 4545;
+		System.out.println("물가 상승.......... \n" + price + "원이다.....");
+		System.out.println(price + "원, 원래 세일 가격은.... " + sale + "원이다.....");
+		sale /= 2;
+		System.out.println("사장님 특가 세일합니다...!!!!!!!!\n" + sale + "원으로 오늘만 판매합니다.!!!!!!!!");
+		System.out.println(1+2+3+4+5+6+7+8+9+10+11);
+		System.out.println(1+2+"3"+4+5+6+7+8+9+10+11);
+		System.out.println(1+2+"합계구하기"+4+5+6+7+8+9+10+11+12+13+14+15+16);
+
+	}
+
+}
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+
