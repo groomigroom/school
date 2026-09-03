@@ -138,4 +138,32 @@ nextLine() 문자열 받기 엔터 이전까지
 
 
 
+package ThreedayGroomi;
+
+import java.util.*;
+
+public class Test001 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("두 수를 차례데로 입력");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		System.out.println("합은 " + (a + b));
+		System.out.println("곱은 " + (a * b));
+		System.out.println("차는 " + (a - b));
+		System.out.println("나눔은 " + (a / b));
+		System.out.println("나눔 나머지는 " + (a % b));
+		
+		sc.close();
+	}
+
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
