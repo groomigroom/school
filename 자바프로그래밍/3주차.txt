@@ -169,3 +169,130 @@ layout에서 absolute layout 클릭
 jtexfield
 
 
+------------------------------------------------------------------------------------------
+
+
+package ThreedayGroomi;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JTextPane;
+import javax.swing.JTextField;
+
+public class test006 extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField textField;
+	//이거 중요
+	private double num1;
+	private double num2;
+	private double result;
+	private String operator;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					test006 frame = new test006();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public test006() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 452);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		textField = new JTextField();
+		textField.setBounds(44, 25, 340, 55);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		
+		
+		JButton btn1 = new JButton("1");
+		btn1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//이거 중요
+				textField.setText(textField.getText()+"1");
+			}
+		});
+		btn1.setBounds(49, 120, 97, 23);
+		contentPane.add(btn1);
+		
+		JButton btn2 = new JButton("2");
+		btn2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//이거 중요
+				textField.setText(textField.getText()+"2");
+			}
+		});
+		btn2.setBounds(49, 169, 97, 23);
+		contentPane.add(btn2);
+		
+		JButton btn3 = new JButton("3");
+		btn3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//이거 중요
+				textField.setText(textField.getText()+"3");
+			}
+		});
+		btn3.setBounds(49, 218, 97, 23);
+		contentPane.add(btn3);
+		
+		JButton btnadd = new JButton("더해라123123123");
+		btnadd.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//이거 중요
+				num1 = Double.parseDouble(textField.getText());
+				operator = "+";
+				textField.setText("");
+				System.out.println(num1);
+			}
+		});
+		btnadd.setBounds(197, 120, 184, 23);
+		contentPane.add(btnadd);
+		
+		JButton btnadd_1 = new JButton("결과값은???????");
+		btnadd_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//이거 중요
+				num2 = Double.parseDouble(textField.getText());
+				result = num1 + num2;
+				textField.setText(String.valueOf(result));
+			}
+		});
+		btnadd_1.setBounds(197, 169, 184, 23);
+		contentPane.add(btnadd_1);
+		
+		JButton btnadd_1_1 = new JButton("초기화하기!!!!!");
+		btnadd_1_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				textField.setText("");
+			}
+		});
+		btnadd_1_1.setBounds(197, 218, 184, 23);
+		contentPane.add(btnadd_1_1);
+	}
+}
+
