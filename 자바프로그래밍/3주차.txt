@@ -75,4 +75,29 @@ L 또는 l
 3.14F
 3.14D
 
+------------------------------------------------------------------------------------------------------------
+
+
+long longprice = 25L;
+		int octal = 031;
+		int hex = 0x19;
+		int binary = 0b11001;
+		double standardFloat = 25.75;
+		double exponential = 2.575e1;
+		float lowFloat = 25.75F;
+		System.out.println(longprice + "\n" + 
+				octal + "\n" + 
+				hex + "\n" + 
+				binary + "\n" + 
+				standardFloat + "\n" + 
+				exponential + "\n" + 
+				lowFloat + "\n");
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+
 
