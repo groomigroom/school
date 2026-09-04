@@ -9,3 +9,6 @@ PA0는 최하위 비트임.
 다이오드 오른족이 마이너스인다.
 
 접지는 항상 0볼트
+
+set as startup project
+
