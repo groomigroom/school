@@ -12,3 +12,32 @@ PA0는 최하위 비트임.
 
 set as startup project
 
+
+----------------------------------------------------
+
+
+#define F_CPU 16000000
+
+#include <avr/io.h>
+#include <stdio.h>
+#include <util/delay.h>
+
+uint8_t autoGauge(uint8_t led) {
+	return led << 1;
+}
+
+int main(void)
+{
+	DDRA = 0xFF;
+	//입력으로 사용할건지 출력으로 사용할 건지 하는거
+	uint8_t led = 1;
+    /* Replace with your application code */
+    while (1) 
+    {
+		PORTA = led;
+		led = autoShift(led);
+		_delay_ms(1000);
+    }
+}
+
+
