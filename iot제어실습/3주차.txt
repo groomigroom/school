@@ -1,3 +1,4 @@
 http://syncsignal.co.kr/EduGrading/VisitStudSv.do
 
 
+ddr 레지스터는 입출력을 설정하는거
