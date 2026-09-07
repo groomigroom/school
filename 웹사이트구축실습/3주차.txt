@@ -173,3 +173,38 @@ console.log(`구름이가 가지고 있는 돈은 현재 ${groomi2(100, 200) + 1
 
 
 --------------------------------------------------------------------------------------------------------------------------------
+function displayA() {
+    console.log('A');
+}
+
+function displayB(callback) {
+    setTimeout(() => {
+        console.log('B');
+        callback();
+    }, 2000);
+}
+
+function displayC(callback) {
+    setTimeout(() => {
+        console.log('C');
+        callback();
+    }, 10000);
+}
+
+function displayD() {
+    console.log('김구름');
+}
+
+
+displayA();
+
+displayB(function () {
+    displayC(function () {
+        displayD();
+    });
+});
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
