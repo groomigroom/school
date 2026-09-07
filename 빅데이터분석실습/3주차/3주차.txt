@@ -119,4 +119,11 @@ print(wb.sheetnames)
 
 ------------------------------------------------------------------
 
+sheet1 = wb['Sheet1']
+sheet2 = wb['groomi_sheet']
+
+sheet1.title = '구름이'
+sheet2.title = '구름이22'
+print(wb.sheetnames)
+
 
