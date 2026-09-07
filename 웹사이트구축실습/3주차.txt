@@ -278,3 +278,16 @@ module.exports = { user1, user2 };
 --------------------------------------------------------------------------------------------------------------------------------
 
 
+greeting.js
+
+const groomi = require('./user');
+const hello = require('./hello');
+const userss = require('./web_2');
+
+hello(groomi);
+hello(userss.user1);
+hello(userss.user2);
+hello(userss.user3);
+
+
+--------------------------------------------------------------------------------------------------------------------------------
