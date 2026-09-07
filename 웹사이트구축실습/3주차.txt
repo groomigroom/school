@@ -10,3 +10,5 @@ ansi-colors
 https://www.npmjs.com/package/ansi-colors
 
 
+vscode에서 방향키 위에꺼가 위에 명령어를 복제하는 거
+clear는 터미널 지우기
