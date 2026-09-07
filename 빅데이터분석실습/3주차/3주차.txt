@@ -96,6 +96,17 @@ with open('data/characters22.csv', 'a', encoding='cp949', newline='') as f:
 
 ------------------------------------------------------------------
 
+!pip install openpyxl
+
+import openpyxl
+
+wb = openpyxl.load_workbook('data/characters.xlsx')
+
+print(wb.sheetnames)
+
+
+------------------------------------------------------------------
+
 
 
 
