@@ -60,6 +60,51 @@ groomifunction(112);
 --------------------------------------------------------------------------------------------------------------------------------
 
 
+let a = 1;
+let b = 2;
+let c = 3;
+let d = 4;
+let e = 5;
+let f = 6;
+let g = 7;
+let h = 8;
+let i = 9;
+let j = 1;
+let k = 2;
+let l = 3;
+
+const NumberShow = (a, b) => {
+    if (a > b) {
+        console.log(a - b);
+    }
+    else {
+        console.log(b - a);
+    }
+}
+
+const NumberShow2 = () => {
+    return '구름이 멍멍';
+}
+
+const NumberShow3 = () => '구름이 멍멍22';
+
+for (let i = 0; i < 100; i++) {
+    NumberShow(a, b);
+    NumberShow(b, a);
+    NumberShow(d, c);
+    NumberShow(c, f);
+    NumberShow(l, g);
+    NumberShow(k, j);
+    NumberShow(f, g);
+    NumberShow(e, d);
+    console.log(NumberShow2());
+    console.log(NumberShow3());
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
