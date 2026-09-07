@@ -194,3 +194,11 @@ print(openpyxl.__version__)
 
 ------------------------------------------------------------------------------------------
 
+copysheet = wb.copy_worksheet(sheet2)
+print(wb.sheetnames)
+
+copysheet.title = 'groomgroom'
+print(wb.sheetnames)
+
+------------------------------------------------------------------------------------------
+
