@@ -88,3 +88,9 @@ with open('data/characters22.csv', 'r', encoding='cp949') as f:
 
 ------------------------------------------------------------------
 
+with open('data/characters22.csv', 'a', encoding='cp949', newline='') as f:
+    wr = csv.writer(f)
+    
+    wr.writerow(['0309djkjfdksjf', '김김구름이', '흰색', '간식먹기', '곰돌이'])
+
+
