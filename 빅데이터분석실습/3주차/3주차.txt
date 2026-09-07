@@ -264,6 +264,14 @@ with open('data/dajeon_data2.csv', encoding='cp949') as f:
 ------------------------------------------------------------------------------------------
 
 
+ws3 = wb.create_sheet('Sheet3')
+
+with open('data/seoul_data3.csv', encoding='cp949') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        ws3.append(row)
+
+------------------------------------------------------------------------------------------
 
 
 
