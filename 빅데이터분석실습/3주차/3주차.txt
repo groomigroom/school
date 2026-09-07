@@ -253,6 +253,19 @@ with open('data/gyungido_data1.csv', encoding='cp949') as f:
 ------------------------------------------------------------------------------------------
 
 
+ws2 = wb.create_sheet('Sheet2')
+
+with open('data/dajeon_data2.csv', encoding='cp949') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        ws2.append(row)
+
+
+------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
