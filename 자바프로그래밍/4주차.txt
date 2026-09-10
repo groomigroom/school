@@ -117,4 +117,25 @@ public class Test001 {
 ------------------------------------------------------------------------------------
 
 
+package p20260910;
+
+public class GroomiGroom {
+
+	public static void main(String[] args) {
+		int price = 25000;
+		
+		if (price >= 20000) {
+			int gu = price - 20000;
+			System.out.println("쿠폰 1장 주겠습니다.");
+			System.out.println("거스름돈은 " + gu + "원이다.");
+		}
+		System.out.println("내일 또 제발 구매해 주세요.....");
+		
+	}
+
+}
+
+
+------------------------------------------------------------------------------------
+
 
