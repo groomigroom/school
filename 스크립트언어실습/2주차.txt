@@ -28,3 +28,10 @@ name
 maxlength
 size 문자 개수
 value
+
+<input type="text" list="countries">
+    <datalist id="countries">
+        <option value="구">
+        <option value="름">
+        <option value="이">
+    </datalist>
