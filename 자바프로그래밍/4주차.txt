@@ -32,3 +32,28 @@ public class Test001 {
 
 
 ------------------------------------------------------------------------------------
+
+
+package p20260910;
+
+public class Test001 {
+
+	public static void main(String[] args) {
+		int a = 5, b = 5;
+		System.out.println("++a= " + ++a);
+		System.out.println("a++= " + a++);
+		System.out.println("a= " + a);
+		System.out.println("a+(b++)= " + (a + b++));
+		System.out.println("b*100= " + (b*100));
+		System.out.println("b*c= " + (b*c));
+	}
+
+}
+
+//위 코드에서 에러가 뜨는 이유를 구해주세요.
+
+
+------------------------------------------------------------------------------------
+
+
+
