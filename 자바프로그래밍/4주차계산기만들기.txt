@@ -1,3 +1,8 @@
 처음에 jframe 파일 만들고
 
 layouts에 absolute layout을 먼저하기
+
+
+JTextField
+JButton
+
