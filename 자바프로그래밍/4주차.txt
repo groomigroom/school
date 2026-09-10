@@ -77,6 +77,38 @@ public class Test001 {
 
 
 
+package p20260910;
+
+import java.util.Scanner;
+
+public class Test001 {
+
+	public static void main(String[] args) {
+		Scanner groomiScanner = new Scanner(System.in);
+
+		System.out.print("첫번째 값 입력: ");
+		
+		double groomiNum1 = groomiScanner.nextDouble();
+		
+		System.out.print("두번째 값 입력: ");
+		
+		double groomiNum2 = groomiScanner.nextDouble();
+		
+		double groomiSum = groomiNum1 + groomiNum2;
+		double groomiSub = groomiNum1 - groomiNum2;
+		double groomiProduct = groomiNum1 * groomiNum2;
+		double groomiDiv = groomiNum1 / groomiNum2;
+		
+		System.out.println("첫번째 값 + 두번째 값 = " + groomiSum);
+		System.out.println("첫번째 값 - 두번째 값 = " + groomiSub);
+		System.out.println("첫번째 값 * 두번째 값 = " + groomiProduct);
+		System.out.println("첫번째 값 / 두번째 값 = " + groomiDiv);
+	}
+
+}
+
+
+------------------------------------------------------------------------------------
 
 
 
