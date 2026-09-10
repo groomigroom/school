@@ -202,5 +202,16 @@ uml은
 두번째 칸에 속성
 마지막 칸은 클래스가 제공하는 메서드............
 
+예
+figure
+
+-line_color
+-hight
+-baseline
+
++fill_color()
++erase()
+등등
+
 
 
