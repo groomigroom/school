@@ -25,6 +25,12 @@ public class Calculator extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textField;
+	
+	//#####
+	private double num1;
+	private double num2;
+	private double result;
+	private String operator;
 
 	/**
 	 * Launch the application.
@@ -210,12 +216,39 @@ public class Calculator extends JFrame {
 		JButton btnClear = new JButton("C");
 		btnClear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				//####
+				textField.setText("");
+				num1 = 0;
+				num2 = 0;
+				result = 0;
+				operator = "";
 			}
 		});
 		btnClear.setBounds(123, 313, 83, 53);
 		contentPane.add(btnClear);
 		
 		JButton btnEqual = new JButton("=");
+		btnEqual.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//#####
+				num2 = Double.parseDouble(textField.getText());
+				
+				if (operator.equals("+")) {
+					result = num1 + num2;
+					
+				} else if (operator.equals("-")) {
+					result = num1 - num2;
+					
+				} else if (operator.equals("*")) {
+					result = num1 * num2;
+					
+				} else if (operator.equals("/")) {
+					result = num1 / num2;
+					
+				} 
+				textField.setText(String.valueOf(result));
+			}
+		});
 		btnEqual.setBounds(224, 314, 83, 53);
 		contentPane.add(btnEqual);
 	}
