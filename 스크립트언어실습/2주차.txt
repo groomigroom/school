@@ -22,3 +22,9 @@ aside는 선택사항
 name은 폼의 이름 지정
 action은 웹 서버 응용 프로그램의 이름
 mailto:kimgroomi@naver.com
+
+input type 
+name
+maxlength
+size 문자 개수
+value
