@@ -295,6 +295,10 @@ value
         짬뽕<img src="media/jjambbong.png"><br>
         <input type="radio" name="china" value="3">
         탕수육<img src="media/tangsuyuk.png">
+    </form> 
+<form>
+        색 선택
+        <input type="color" value="#00BFFF" onchange="document.body.style.backgroundColor=this.value">
     </form>
 
 
