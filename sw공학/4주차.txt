@@ -229,8 +229,10 @@ figure
 public
 은닉
 private
+클래스에서 대부분의 속성은 private으로 설정해서 작업한다.
 부분 공개
 protected
 
 클래스는 알약 느낌
 사용자가 세부적인 내용을 알 필요가 없는 느낌.
+
