@@ -223,3 +223,12 @@ figure
 
 확장변수
 멤버변수
+
+가시성
+공개
+public
+은닉
+private
+부분 공개
+protected
+
