@@ -1,5 +1,11 @@
 http://syncsignal.co.kr/EduGrading/VisitStudSv.do
 
+
+PORT A는 led
+PORT C는 ????
+DDRC = 0xFF
+
+
 com1
 com2
 com3
