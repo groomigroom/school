@@ -1,6 +1,16 @@
 http://syncsignal.co.kr/EduGrading/VisitStudSv.do
 
 
+common anode
+common cathode
+
+vcc anode
+gnd cathode
+
+anode -> a, b, dp: 0을 주면 on
+cathode -> a, b, dp: 1을 주면 on
+
+
 ddr 레지스터는 입출력을 설정하는거
 1주면 5볼트가 나가고 0주면 0볼트가 나간다.
 
