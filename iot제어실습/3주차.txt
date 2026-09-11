@@ -5,6 +5,8 @@ PORT A는 led
 PORT C는 ????
 DDRC = 0xFF
 
+5볼트가 들어가면 연결된다.?
+
 
 com1
 com2
