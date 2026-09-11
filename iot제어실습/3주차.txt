@@ -1,5 +1,12 @@
 http://syncsignal.co.kr/EduGrading/VisitStudSv.do
 
+com1
+com2
+com3
+com4
+를 다 그라운드 0볼트를 주면 다 켜지는 방식????????
+
+
 
 common anode
 common cathode
