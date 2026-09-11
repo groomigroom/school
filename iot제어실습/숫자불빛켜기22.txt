@@ -1,0 +1,81 @@
+/*
+ * september11.c
+ *
+ * Created: 2026-09-11 오후 1:31:51
+ * Author : 김구름이
+ */ 
+
+#define F_CPU 16000000
+#include <avr/io.h>
+#include <util/delay.h>
+
+int main(void)
+{
+    DDRC = 0xFF;
+	DDRG = 0x0F;
+	uint8_t fndNumber[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x27, 0x7F, 0x6F};
+	
+    while (1) 
+    {
+		PORTG = 0x0F;
+		for (uint8_t loop = 0; loop < 10; loop++) {
+			PORTC = fndNumber[loop];
+			_delay_ms(500);
+		}
+		/*
+		//PORTG = 0b00001111;
+		//PORTG = 0x0F;
+		//PORTC = 0b00111111;
+		//PORTC = 0x3F;
+		//_delay_ms(500); //0
+		//PORTG = 0b00000011;
+		//PORTG = 0x03;
+		//PORTC = 0b00000110;
+		PORTC = 0x06;
+		_delay_ms(500); //1
+		//dp gfedcba
+		//
+		//PORTG = 0b00001100;
+		PORTG = 0x0C;
+		//PORTC = 0b01011011;
+		PORTC = 0x5B;
+		_delay_ms(500); //2
+		//PORTG = 0b00001111;
+		PORTG = 0x0F;
+		//PORTC = 0b01001111;
+		PORTC = 0x4F;
+		_delay_ms(500); //3
+		//PORTG = 0b00000011;
+		PORTG = 0x03;
+		//PORTC = 0b01100110;
+		PORTC = 0x66;
+		_delay_ms(500); //4
+		//PORTG = 0b00001100;
+		PORTG = 0x0C;
+		//PORTC = 0b01101101;
+		PORTC = 0x6D;
+		_delay_ms(500); //5
+		//PORTG = 0b00001111;
+		PORTG = 0x0F;
+		//PORTC = 0b01111101;
+		PORTC = 0x7D;
+		_delay_ms(500); //6
+		//PORTG = 0b00000011;
+		PORTG = 0x03;
+		//PORTC = 0b00100111;
+		PORTC = 0x27;
+		_delay_ms(500); //7
+		//PORTG = 0b00001100;
+		PORTG = 0x0C;
+		//PORTC = 0b01111111;
+		PORTC = 0x7F;
+		_delay_ms(500); //8
+		//PORTG = 0b00001111;
+		PORTG = 0x0F;
+		//PORTC = 0b01101111;
+		PORTC = 0x6F;
+		_delay_ms(500); //9
+		*/
+    }
+}
+
