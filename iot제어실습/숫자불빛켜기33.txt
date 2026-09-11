@@ -1,0 +1,50 @@
+/*
+ * september11.c
+ *
+ * Created: 2026-09-11 오후 1:31:51
+ * Author : 김구름이
+ */ 
+
+#define F_CPU 16000000
+#include <avr/io.h>
+#include <util/delay.h>
+
+void setFND(uint8_t ch, uint8_t n) {
+	PORTG = ch;
+	uint8_t fndNumber[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x27, 0x7F, 0x6F};
+	n = fndNumber[n];
+	PORTC = n;
+	
+}
+
+int main(void)
+{
+    DDRC = 0xFF;
+	DDRG = 0x0F;
+	
+	
+    while (1) 
+    {
+		setFND(0x08, 0);
+		_delay_ms(500);
+		setFND(0x04, 1);
+		_delay_ms(500);
+		setFND(0x02, 2);
+		_delay_ms(500);
+		setFND(0x01, 3);
+		_delay_ms(500);
+		setFND(0x08, 4);
+		_delay_ms(500);
+		setFND(0x04, 5);
+		_delay_ms(500);
+		setFND(0x02, 6);
+		_delay_ms(500);
+		setFND(0x01, 7);
+		_delay_ms(500);
+		setFND(0x08, 8);
+		_delay_ms(500);
+		setFND(0x04, 9);
+		_delay_ms(500);
+		
+    }
+}
