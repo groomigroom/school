@@ -40,3 +40,11 @@ ${__dirname}
 폴더 이름을 가져 옴
 ${__filename}
 파일 이름을 가져 옴
+
+
+fs.readdirSync(path[, options])
+
+
+https://nodejs.org/docs/latest/api/fs.html#fsreaddirsyncpath-options
+
+
