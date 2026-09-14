@@ -3,6 +3,8 @@ const path = require("path");
 const parsedPath = path.parse(__filename);
 console.log(parsedPath);
 
+//경로를 객체로 만들기
+
 /*
 {
   root: 'E:\\',
