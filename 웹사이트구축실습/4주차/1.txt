@@ -64,3 +64,5 @@ https://nodejs.org/docs/latest/api/path.html#pathjoinpaths
 fs 모듈
 파일의 내용을 읽거나 기록하는 등ㄷ 파일을 관리할 때, 사용하는 모듈
 
+기존 파일에 내용 추가하기 flag 옵션
+도 있음.
