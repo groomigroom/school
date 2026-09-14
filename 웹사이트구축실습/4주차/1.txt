@@ -18,3 +18,11 @@ const hello = require("./hello");
 
 노드 코어 모듈들
 fs 파일 시스템
+http
+path 경로
+streams 스트림
+crypto 암호화
+os 운영체제
+util 유틸리티
+events 이벤트
+
