@@ -57,3 +57,7 @@ path 모듈은
 
 경로를 나누거나 합칠 수 있다.
 
+path.join([...paths])
+
+https://nodejs.org/docs/latest/api/path.html#pathjoinpaths
+
