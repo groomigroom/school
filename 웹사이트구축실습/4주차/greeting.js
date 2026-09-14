@@ -17,3 +17,6 @@ hello(user2);
 hello(user4s.user1);
 hello(user4s.user2);
 hello(user4s.user3);
+
+console.log(`현재 모듈의 폴더 : ${__dirname}`);
+console.log(`현재 모듈의 파일명 : ${__filename}`);
