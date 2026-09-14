@@ -29,3 +29,9 @@ os 운영체제
 util 유틸리티
 events 이벤트
 
+글로벌 모듈은 require 없이 사용할 수 있는 모듈
+예시로는
+global.console.log()
+
+이걸 생략해서
+console.log()
