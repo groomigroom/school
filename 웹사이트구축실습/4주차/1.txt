@@ -35,3 +35,8 @@ global.console.log()
 
 이걸 생략해서
 console.log()
+
+${__dirname}
+폴더 이름을 가져 옴
+${__filename}
+파일 이름을 가져 옴
