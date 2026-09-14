@@ -20,6 +20,9 @@ const hello = require("./hello");
 fs 파일 시스템
 http
 path 경로
+
+위에 3가지 많이 쓴다.
+
 streams 스트림
 crypto 암호화
 os 운영체제
