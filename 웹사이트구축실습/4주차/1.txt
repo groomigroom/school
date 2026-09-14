@@ -9,3 +9,5 @@ module.exports
 ES 모듈
 import
 export
+
+이름 다르게 여러군데에서 받는거
