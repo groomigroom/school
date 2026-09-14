@@ -5,6 +5,9 @@ const user4s = require("./user4");
 
 const { user1, user2 } = require('./web_2');
 
+console.log(user4s);
+//{ user1: 'kimgroom', user2: '김구름', user3: '김구름이' }
+
 hello(groomi);
 hello(userss.user1);
 hello(userss.user2);
