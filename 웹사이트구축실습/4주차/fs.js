@@ -4,6 +4,8 @@ const fs = require("fs");
 //     console.log(data);
 // });
 
+
+비동기
 fs.readdir("./", (err, files) => {
     if (err) {
         console.error(err);
