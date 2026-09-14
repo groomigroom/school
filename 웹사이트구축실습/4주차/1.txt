@@ -16,3 +16,5 @@ export
 
 const hello = require("./hello");
 
+노드 코어 모듈들
+fs 파일 시스템
