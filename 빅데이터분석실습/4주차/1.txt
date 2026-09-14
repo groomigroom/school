@@ -1,0 +1,5 @@
+head() 앞부분 출력
+tail() 뒷부분 출력
+shape 행, 열 개수 출력
+info() 변수 속성 출력
+describe() 요약 통계량 출력
