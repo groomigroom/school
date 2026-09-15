@@ -1,3 +1,23 @@
+맥락
+우리가 분석한 2025년 전체 법인카드 사용 내역 데이터를 사용할거야
+상반기 1월에서 6월과 하반기 7월에서 12월 
+
+1 비용 증가 항목 식별
+상반기 대비 하반기에 비용 카테고리별 
+
+2. 비용 절감 방안 제안
+위에서 찾은 top 3 항목에 대해 , 각각의 비용을 절감할 수 있는 현실적이고 구체적인 아이디어 3가지씩 제안해라
+
+
+
+
+
+jfgghdfghdfghdfhdfhdfhdfhfdhfdh
+jfgghdfghdfghdfhdfhdfhdfhfdhfdh
+jfgghdfghdfghdfhdfhdfhdfhfdhfdh
+
+
+
 [맥락] 위에서 비용 카테고리를 추가한 데이터를 사용할 거야
 [목표] 아래 작업을 순서대로 진행해
 1. 월별/팀별 요약표 생성
