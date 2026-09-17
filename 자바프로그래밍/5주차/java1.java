@@ -66,7 +66,13 @@ public class SwitchCase1 {
 		System.out.println("추가 금액은 " + plus_price + "원이다.");
 		System.out.print("세트 메뉴 선택하기 1. 2. 3.");
 		int setmenu = sc.nextInt();
-		
+		switch(setmenu) {
+		case 1:
+			System.out.println("단무지");
+		}
+		double randomValue = Math.random();
+		int randomInt = (int)(Math.random() * 10); //0에서 9 이하의 무작위 수
+		System.out.println("실수" + randomValue + "정수" + randomInt);
 		sc.close();
 	}
 
