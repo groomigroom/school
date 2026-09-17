@@ -11,3 +11,13 @@
 
 이런식으로 표현함
 
+예시
+Scanner sc = new Scanner(System.in);
+sc.nextInt();
+
+
+가시성
+public
+private
+protected
+
