@@ -17,7 +17,7 @@ sc.nextInt();
 
 
 가시성
-public
-private
-protected
+public -> 같은 시스템에 있는 모든 ㄴ크랠스에 접근 가능
+private -> 같은 시스템 내의 다른 클래스는 접근 불가
+protected -> 상속받은데만 가능?
 
