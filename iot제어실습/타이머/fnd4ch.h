@@ -5,7 +5,9 @@
  *  Author: user
  */ 
 
-
+#define F_CPU 16000000
+#include <avr/io.h>
+#include <util/delay.h>
 #ifndef FND4CH_H_
 #define FND4CH_H_
 
