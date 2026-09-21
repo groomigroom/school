@@ -7,3 +7,7 @@ agg() 통계치 구하기
 merge() 데이터 합치기(열)
 concat() 데이터 합치기(행)
 
+데이터프레임 만들어서도 가능
+
+var = 3
+exam.query("nclass == @var")도 가능
