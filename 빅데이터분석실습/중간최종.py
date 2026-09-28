@@ -12,6 +12,22 @@ function solution(num_list) {
 
 #---------------------------------------------------------------------------------------------------
 
+
+f = open("groomi.txt", "w")
+f.write("kimgroomi mungmung\n")
+f.write("kimgroomi mungmungg\n")
+f.close()
+f2 = open("groomi.txt", "r")
+data = f2.read()
+data2 = f2.readlines()
+print(data)
+for line in data2:
+    print(line)
+f2.close
+
+
+#---------------------------------------------------------------------------------------------------
+
 import seaborn
 var = ["a", "a", "b", "c"]
 seaborn.countplot(x = var)
