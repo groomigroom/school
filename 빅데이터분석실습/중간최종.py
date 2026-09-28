@@ -12,7 +12,7 @@ function solution(num_list) {
 
 #---------------------------------------------------------------------------------------------------
 
-
+#파일 읽기 쓰기 등등
 f = open("groomi.txt", "w")
 f.write("kimgroomi mungmung\n")
 f.write("kimgroomi mungmungg\n")
