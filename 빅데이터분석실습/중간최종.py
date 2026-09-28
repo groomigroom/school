@@ -1,3 +1,20 @@
+#---------------------------------------------------------------------------------------------------
+
+
+import csv
+f = open('data/characters22.csv', 'r', encoding='cp949')
+# f = open('data/characters22.csv', 'r', encoding='cp949', newline="")
+
+rdr = csv.reader(f)
+# rdr = csv.writer(f)
+
+#rdr.writerow(['6', '김구름이', '흰색', '간식먹기', '곰돌이'])
+
+for line in rdr:
+    print(line)
+
+f.close()
+
 
 #---------------------------------------------------------------------------------------------------
 
