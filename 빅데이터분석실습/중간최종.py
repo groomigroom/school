@@ -12,6 +12,22 @@ function solution(num_list) {
 
 #---------------------------------------------------------------------------------------------------
 
+import pandas as pd
+groomi_friends = ["김구름", "이새싹", "박방울", "황참이"]
+series_friends = pd.Series(groomi_friends)
+series_friends
+
+"""
+0
+0	김구름
+1	이새싹
+2	박방울
+3	황참이
+"""
+
+
+#---------------------------------------------------------------------------------------------------
+
 
 with open("groomi.txt", "a") as f:
     f.write("kimgroomgroom")
