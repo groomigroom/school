@@ -1,3 +1,17 @@
+def solution(n):
+    answer = []
+    answer.append(n)
+    while (n == 1):
+        if (n % 2 == 0):
+            n /= 2
+            answer.append(n)
+        else:
+            n = 3 * n + 1
+            answer.append(n)
+    return answer
+
+
+
 4주차 csv 파일 읽기까지 함
 
 
