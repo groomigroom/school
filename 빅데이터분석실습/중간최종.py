@@ -12,6 +12,22 @@ function solution(num_list) {
 
 #---------------------------------------------------------------------------------------------------
 
+
+with open("groomi.txt", "a") as f:
+    f.write("kimgroomgroom")
+
+with open("groomi.txt", "r") as f2:
+    data = f2.read()
+    print(data)
+
+with open('data/characters22.csv', 'a', encoding='cp949', newline='') as f:
+    wr = csv.writer(f)
+    
+    wr.writerow(['030993920', '김김구름이', '흰색', '간식먹기', '곰돌이'])
+
+
+#---------------------------------------------------------------------------------------------------
+
 #파일 읽기 쓰기 등등
 f = open("groomi.txt", "w")
 f.write("kimgroomi mungmung\n")
