@@ -1,6 +1,47 @@
 #---------------------------------------------------------------------------------------------------
 
 
+
+
+
+#---------------------------------------------------------------------------------------------------
+
+
+import openpyxl
+
+wb = openpyxl.load_workbook('data/characters.xlsx')
+
+print(wb.sheetnames)
+
+
+sheet1 = wb['Sheet1']
+sheet2 = wb['groomi_sheet']
+
+sheet1.title = '구름이'
+sheet2.title = '구름이22'
+print(wb.sheetnames)
+print(sheet1['A1'].value)
+wb.create_sheet('groomi_sheet')
+print(wb.sheetnames)
+sheet2['B1'] = '김구름 멍멍이'
+print(sheet2['B1'].value)
+copysheet = wb.copy_worksheet(sheet2)
+print(wb.sheetnames)
+
+copysheet.title = 'groomgroom'
+print(wb.sheetnames)
+del wb['groomgroom']
+print(wb.sheetnames)
+sheet1['B1'].value = '구름구름'
+print(sheet1['B1'].value)
+
+# 💡 반드시 파일 저장 코드를 입력해야 실제 엑셀 파일에 반영됩니다!
+wb.save('data/characters22.xlsx') # 파일 경로와 이름을 상황에 맞게 수정하세요.
+
+
+#---------------------------------------------------------------------------------------------------
+
+
 import csv
 f = open('data/characters22.csv', 'r', encoding='cp949')
 # f = open('data/characters22.csv', 'r', encoding='cp949', newline="")
