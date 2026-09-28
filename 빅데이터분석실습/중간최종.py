@@ -3,16 +3,17 @@
 import pandas as pd
 dr_raw = pd.DataFrame({"groomi1" : [1, 2, 3],
                        "groomi2": [2, 3, 2]})
+dr_raw = dr_raw.rename(columns = {"groomi2": "groomgroom"})
 dr_raw
 
 """
-	groomi1	groomi2
+	groomi1	groomgroom
 0	1	2
 1	2	3
 2	3	2
 
-"""
 
+"""
 
 #---------------------------------------------------------------------------------------------------
 
