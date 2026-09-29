@@ -10,6 +10,84 @@ mpg["test"].value_counts()
 count_test = mpg["test"].value_counts()
 count_test.plot.bar()
 
+
+
+count_test.plot.bar(rot = 0)
+#pass, fail 이름을 수평으로 출력하기
+
+
+------------------===================================================
+
+mpg["grade"] = np.where(mpg["total"] >= 50, "AAAAAAAAAAAAA",
+                np.where(mpg["total"] >= 40, "BBBBBBBBBBBBBB", "CCCCCCCCCCCCCCCCCC"))
+mpg.head(40)
+
+------------------===================================================
+count_grade = mpg["grade"].value_counts()
+count_grade
+
+
+------------------===================================================
+
+
+count_grade.plot.bar(rot = 0)
+
+------------------===================================================
+count_grade = mpg["grade"].value_counts().sort_index()
+#알파벳 순으로 정리
+count_grade
+------------------===================================================
+count_grade.plot.bar(rot = 0)
+
+------------------===================================================
+
+
+mpg["grade22"] = np.where(mpg["total"] >= 50, "AAAAAAAAAAAAA",
+                np.where(mpg["total"] >= 30, "BBBBBBBBBBBBBB", 
+                 np.where(mpg["total"] >= 20,"CCCCCCCCCCCCCCCCCC", "DDDDDDDDDDDDDD")))
+mpg.head(40)
+
+------------------===================================================
+
+count_grade22 = mpg["grade22"].value_counts().sort_index()
+#알파벳 순으로 정리
+count_grade22
+
+------------------===================================================
+
+count_grade22.plot.bar(rot = 0)
+
+
+------------------===================================================
+
+mpg["size"] = np.where((mpg["category"] == "compact") |
+                      (mpg["category"] == "subcompact") |
+                      (mpg["category"] == "2seater"),
+                      "small", "large")
+mpg["size"].value_counts()
+
+
+------------------===================================================
+
+
+size
+large    147
+small     87
+Name: count, dtype: int64
+
+------------------===================================================
+
+
+mpg["size"] = np.where(mpg["category"].isin(["compact", "subcompact", "2seater"]), "small", "large")
+mpg["size"].value_counts()
+
+------------------===================================================
+size
+large    147
+small     87
+Name: count, dtype: int64
+
+
 #---------------------------------------------------------------------------------------------------
 
 def solution(n):
