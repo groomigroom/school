@@ -31,6 +31,12 @@ import openpyxl
 df_exam = pd.read_excel("data/excel_exam.xlsx")
 df_exam.tail(10)
 
+----------------------------------------------------
+
+df_exam_novar = pd.read_excel("data/excel_exam_novar.xlsx", header = None)
+#column이 원래 없다는 것을 header = None으로 표시
+df_exam_novar
+
 
 ----------------------------------------------------
 
