@@ -25,6 +25,15 @@ df_csv_exam
 
 ----------------------------------------------------
 
+
+import pandas as pd
+import openpyxl
+df_exam = pd.read_excel("data/excel_exam.xlsx")
+df_exam.tail(10)
+
+
+----------------------------------------------------
+
 df = pd.DataFrame({"name": ["김구름", "구름구름", "구우름", "구르미"],
                   "puppy": [10, 20, 30, 40],
                   "puppy_world": [20, 30, 40, 40]})
