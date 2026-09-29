@@ -1,3 +1,9 @@
+import numpy as np
+mpg["test"] = np.where(mpg["total"] >= 20, "pass", "탈락ㅋㅋㅋ")
+
+
+#---------------------------------------------------------------------------------------------------
+
 def solution(n):
     answer = []
     answer.append(n)
