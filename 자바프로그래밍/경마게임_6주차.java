@@ -14,7 +14,7 @@ public class SixClass3 {
 			for (int k = 0; k < teuls.length; k++) {
 				teuls[k] = teuls[k] + (int)(Math.random()*10);
 				for (int m = 0; m < teuls[k]; m++) {
-					System.out.print("말");
+					System.out.print("틀");
 				}
 				System.out.println(k + ":>");
 				if (teuls[k] > 100) {
