@@ -6,7 +6,7 @@ public class StarDrawing {
 		//2차원 배열을 활용하여 1 2 3 4 5 별모양 출력하기
 		char[][] stars = new char[5][5];
 		for (int i = 0; i < stars.length; i++) {
-			for (int j = 0; j < stars[i].length; j++) {
+			for (int j = 0; j < stars[i].length; j++) { // j < i 로 간단하게 수정해도 됨.
 				if (j < i + 1) {
 					stars[i][j] = '*';
 				} else {
