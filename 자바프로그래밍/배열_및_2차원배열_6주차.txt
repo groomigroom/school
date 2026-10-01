@@ -65,7 +65,64 @@ public class SixClass {
 			}
 		}
 		
+		sc.close();
+		String[] teul8 = {"kim", "goo", "rem", "on", "the", "ground", "and", "he", "is", "running",
+				"and", "studying", "on", "the", "hill"};
+		for(int i = 0; i < 22; i++) {
+			for (int j = 0; j < teul8.length; j++) {
+				System.out.println(teul8[j]);
+			}
+		}
+		String[] teul9 = {"kim", "goo", "rem", "on", "the", "ground", "and", "he", "is", "running",
+				"and", "studying", "on", "the", "hill", "kim", "goo", "rem", "on", "the", "ground", "and", "he", "is", "running",
+				"and", "studying", "on", "the", "hill"};
+		for(int i = 0; i < 44; i++) {
+			for (int j = 0; j < teul9.length; j++) {
+				System.out.print(teul9[j]);
+			}
+		}
+		//##### 2차원 배열 출력
+		int[][] teul10 = new int[2][3];
+		for(int i = 0; i < teul10.length; i++) {
+			for (int j = 0; j < teul10[i].length; j++) {
+				teul10[i][j] = 0;
+			}
+		}
+		System.out.println();
+		System.out.println(Arrays.deepToString(teul10));
 		
+		for(int i = 0; i < teul10.length; i++) {
+			for (int j = 0; j < teul10[i].length; j++) {
+				for (int k = 0; k < 22; k++) {
+					System.out.println(teul10[i][j]);
+				}
+				
+			}
+		}
+		
+		String[][] teul11 = {
+				{"1번틀", "2번틀", "3번틀"},
+				{"4번틀", "5번틀", "6번틀"},
+				{"7번틀", "8번틀", "9번틀"}
+		};
+		for (int i = 0; i < teul11.length; i++) {
+			for (int j = 0; j < teul11[i].length; j++) {
+				System.out.println("틀" + teul11[i][j]);
+			}
+		}
+		
+		//teul12 가변 배열 #####
+		int[][] teul12 = new int[3][];
+		teul12[0] = new int[1];
+		teul12[1] = new int[2];
+		teul12[2] = new int[3];
+		//나중에 대입할 때는
+		teul12 = new int[][]{
+				{1},
+				{22, 22},
+				{3, 4, 5}
+		};
+		System.out.println(Arrays.deepToString(teul12));
 	}
 
 }
