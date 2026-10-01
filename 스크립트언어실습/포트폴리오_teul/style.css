@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+    letter-spacing: -0.02em;
+    list-style: none;
+    color: #333;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    /*영역들이 부드럽게 이동됨.*/
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #fcfcfc;
+    border: 5px solid #333;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+}
+
+header>h1 {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header>h3 {
+    position: absolute;
+    top: 63px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li {
+    width: 100px;
+    height: 40px;
+    background-color: #333;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>ul>li:hover {
+    background-color: #fcfcfc;
+    border: 5px solid #333;
+}
+
+nav>ul>li>a {
+    color: #fcfcfc;
+}
+
+nav>ul>li:hover>a {
+    color: #333;
+}
+
+#about {
+    position: relative;
+    height: 392px;
+    width: 100%;
+    border-bottom: 5px solid #333;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#about>h2 {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.groomi_img {
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 210px;
+    width: 160px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 5px solid #333;
+    box-shadow: 0 5px 16px #333;
+}
+
+.groomi_img>img {
+    height: 200px;
+}
+
+.about_pp {
+    width: 100%;
+    position: absolute;
+    top: 282px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.basic_information {
+    width: 100%;
+    height: 165px;
+    position: relative;
+    border-bottom: 5px solid #333;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.basic_information>h3 {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.basic_information>ul {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*#####*/
+/*width: min(1000px, calc(100% - 50px)) -> 더 적은거를 선택해 주세요*/
