@@ -1,1 +1,71 @@
+package six_java;
 
+import java.util.*;
+
+public class SixClass {
+
+	public static void main(String[] args) {
+		int[] teul = {200, 300, 400, 500};
+		System.out.println(Arrays.toString(teul));
+		System.out.println(teul[0] + teul[1] + teul[2] + teul[3]);
+		String[] teul2 = {"틀을 ", "잘 만들어서 ", "공부해 ", "보아요 "};
+		System.out.println(teul2[0] + teul2[1] + teul2[2] + teul2[3]);
+		System.out.println(teul2[1] + teul2[2] + teul2[3] + teul2[0]);
+		System.out.println(teul2[2] + teul2[3] + teul2[0] + teul2[1]);
+		System.out.println(teul2[3] + teul2[0] + teul2[1] + teul2[2]);
+		System.out.println(teul2[3] + teul2[0] + teul2[1] + teul2[2] + 
+				teul2[0] + teul2[1] + teul2[2] + teul2[3] +
+				teul2[1] + teul2[2] + teul2[3] + teul2[0] +
+				teul2[2] + teul2[3] + teul2[0] + teul2[1]);
+		//이제 겁나 더 teul을 더 만들어 볼거에요!!!!!!!!!!!!!!!!!!!!!
+		double[] teul3 = {3.11, 3.222, 4.443, 32.222, 33.333,
+				22.222, 22.343432, 22.3434, 5435.24324};
+		String[] teul4 = {"구름이와 ", "함께 ", "집에서 ", "공부해 보아요 "};
+		int[] teul5 = new int[5];
+		char[] teul6 = new char[] {'김', '구', '름', '멍', '멍', '이'};
+		String[] teul7 = {"구름이", "구름이22", "꾸름이33"}; //#####
+		for (int di = 0; di < teul3.length; di++) {
+			System.out.println(teul3[di]);
+			System.out.print(teul3[di]);
+		}
+		System.out.println("\n이제 즐겁고 신나게 teul을 더 출력해 볼까요? 1, 2, 3, 4 중에 입력하세요!!!!!!!!!!!");
+		Scanner sc = new Scanner(System.in);
+		int aa = sc.nextInt();
+		if (aa == 1) {
+			for (int iii = 0; iii < 12; iii++) {
+				System.out.println(Arrays.toString(teul));
+			}
+		} else if (aa == 2) {
+			for (int groo = 0; groo < 22; groo++) {
+				for (int i = 0; i <= groo + 1; i++) {
+					System.out.print(teul4[0]);
+				}
+				System.out.println();
+			}
+		} else if (aa == 3) {
+			for (int i = 0; i < teul5.length; i++) {
+				teul5[i] = i + 1;
+			}
+			System.out.println(Arrays.toString(teul5));
+		} else if (aa == 4) {
+			for (int groo = 0; groo < 22; groo++) {
+				for (int i = 0; i <= groo + 1; i++) {
+					System.out.print(teul6[0]);
+					System.out.print(teul6[1]);
+					System.out.print(teul6[2]);
+					System.out.print(teul6[3]);
+					System.out.print(teul6[4]);
+					System.out.print(teul6[5]);
+				}
+				System.out.println();
+			}
+		} else {
+			for (int iii = 0; iii < 122; iii++) {
+				System.out.println(Arrays.toString(teul6));
+			}
+		}
+		
+		
+	}
+
+}
