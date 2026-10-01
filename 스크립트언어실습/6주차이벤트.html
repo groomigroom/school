@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teul을 잘 잡아야지 좋은 웹사이트가 생성됩니다.</title>
+    <style>
+        @font-face {
+            font-family: 'LotteriaChwapttaenggyeo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+            font-weight: normal;
+            font-display: swap;
+        }
+
+        * {
+            font-family: 'LotteriaChwapttaenggyeo';
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .teul_wrap1 {
+            width: 1000px;
+            height: 100px;
+            display: flex;
+        }
+
+        .teul_100_100 {
+            width: 100px;
+            height: 100px;
+            position: relative;
+        }
+
+        .teul_100_100>h1 {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0px;
+            transition: all 0.2s ease 0s;
+            text-decoration: overline;
+        }
+
+        .teul1 {
+            background-color: rgb(126, 126, 126);
+        }
+
+        .teul2 {
+            background-color: rgb(241, 197, 197);
+        }
+
+        .teul3 {
+            background-color: rgb(207, 241, 197);
+        }
+
+        .teul4 {
+            background-color: rgb(197, 227, 241);
+        }
+
+        .teul5 {
+            background-color: rgb(206, 197, 241);
+        }
+
+        section>img {
+            border-radius: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--rem은 16이 기본이면 2rem은 32px-->
+    <!--font-family에 2개 이상 쓰면 대채 글씨체-->
+    <!--em은 잘 안씀-->
+    <div class="teul_wrap1">
+        <header class="teul_100_100 teul1 teul1_1">
+            <h1>teul!</h1>
+        </header>
+        <header class="teul_100_100 teul2 teul2_1">
+            <h1>teul!</h1>
+        </header>
+        <header class="teul_100_100 teul3 teul3_1">
+            <h1>teul!</h1>
+        </header>
+        <header class="teul_100_100 teul4 teul4_1">
+            <h1>teul!</h1>
+        </header>
+        <header class="teul_100_100 teul5 teul5_1">
+            <h1>teul!</h1>
+        </header>
+        <header class="teul_100_100 teul1 teul1_2">
+            <h1>teul!</h1>
+        </header>
+        <header class="teul_100_100 teul2 teul2_2">
+            <h1>teul!</h1>
+        </header>
+        <header class="teul_100_100 teul3 teul3_2">
+            <h1>teul!</h1>
+        </header>
+        <header class="teul_100_100 teul4 teul4_2">
+            <h1>teul!</h1>
+        </header>
+        <header class="teul_100_100 teul5 teul5_2">
+            <h1>teul!</h1>
+        </header>
+    </div>
+    <section>
+        <img src="https://avatars.githubusercontent.com/u/240123346?v=4" alt="">
+    </section>
+    <script>
+        // 1. 각 요소별로 달라지는 설정값들을 하나의 배열로 깔끔하게 묶습니다.
+        const teulSettings = [
+            { teulSelector: ".teul1_1 > h1", delay: 100 },
+            { teulSelector: ".teul2_1 > h1", delay: 150 },
+            { teulSelector: ".teul3_1 > h1", delay: 200 },
+            { teulSelector: ".teul4_1 > h1", delay: 250 },
+            { teulSelector: ".teul5_1 > h1", delay: 300 },
+            { teulSelector: ".teul1_2 > h1", delay: 350 },
+            { teulSelector: ".teul2_2 > h1", delay: 400 },
+            { teulSelector: ".teul3_2 > h1", delay: 450 },
+            { teulSelector: ".teul4_2 > h1", delay: 500 },
+            { teulSelector: ".teul5_2 > h1", delay: 550 },
+        ];
+
+        // 2. 반복문을 돌려 각각의 애니메이션 인터벌을 자동으로 생성합니다.
+        teulSettings.forEach((setting) => {
+            const element = document.querySelector(setting.teulSelector);
+            let count = 0;
+            let direction = 1;
+
+            // 각 요소가 자신만의 독립된 count와 direction을 가진 채 인터벌이 구동됩니다.
+            setInterval(() => {
+                element.style.top = `${count}px`;
+                count += (50 * direction);
+
+                if (count >= 550) {
+                    direction = -1;
+                } else if (count <= 0) {
+                    direction = 1;
+                }
+            }, setting.delay);
+        });
+
+    </script>
+</body>
+
+</html>
