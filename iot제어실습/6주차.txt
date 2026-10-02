@@ -9,3 +9,18 @@ reset 버튼이 인터럽트?
 인터럽트 플래그
 인터럽트 서비스 루틴
 
+
+c언어 인터럽트
+
+#include <avr/interrupt.h>
+
+ISR(인터럽트 벡터) {
+
+}
+
+int main(void) {
+  sei(); //인터럽트 동작
+  while(1) {
+
+  }
+}
