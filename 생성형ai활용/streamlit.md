@@ -18,6 +18,11 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
 .\venv\Scripts\Activate.ps1
 
+
+4. 실행하기
+
+* streamlit run sample.py
+
 ------------------------------
 ## 🔍 정상 작동 확인
 3번 명령어까지 입력했을 때, 터미널 왼쪽 끝에 (venv) PS C:\Users\user\Desktop\streamlit> 처럼 (venv) 괄호가 생겼다면 완벽하게 성공한 것입니다!
