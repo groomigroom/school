@@ -30,3 +30,6 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 혹시 1번 python -m venv venv를 입력했을 때 python 용어가 인식되지 않는다는 에러가 나거나, 3번을 입력했는데 똑같은 에러가 발생하는지 알려주세요! 구체적인 원인을 다시 짚어드릴게요.
 1번 명령어를 입력한 후 탐색기 창에 venv 폴더가 새로 생겼는지 확인해 주시고, 3번까지 입력했을 때 터미널 맨 앞에 (venv) 표시가 나타났는지 알려주세요!
 
+# 이모지 코드들
+* https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
+
