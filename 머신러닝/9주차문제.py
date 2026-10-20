@@ -6,6 +6,7 @@ class 경사하강법:
         최소값이_발산하게_되면은_학습이_안된다 = "....." + 가짜_최소값
         return 튀어나가버리면_에러뜸 + "머신러닝에서 경사하강법은 중요하다..." + 최소값이_발산하게_되면은_학습이_안된다
 
+#main ------------------------------------------------------------------------------------------------
 deeping_learning_tensorflow = "PyTorch"
 PyTorch = "Keras\n"
 PythonIsInterpreTerMul = " more than c_lang, but very slow...\n"
