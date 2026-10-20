@@ -1,6 +1,8 @@
 class 경사하강법:
     def 경사하강법수행(running_rate):
         return running_rate * 3
+    def 가짜local_mininum_이_생기는데_노트에있는거는_꼬불꼬불한거(튀어나가버리면_에러뜸):
+        return 튀어나가버리면_에러뜸 + "머신러닝에서 경사하강법은 중요하다..."
 
 deeping_learning_tensorflow = "PyTorch"
 PyTorch = "Keras\n"
