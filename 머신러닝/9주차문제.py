@@ -1,3 +1,7 @@
+class 경사하강법:
+    def 경사하강법수행(running_rate):
+        return running_rate * 3
+
 deeping_learning_tensorflow = "PyTorch"
 PyTorch = "Keras\n"
 PythonIsInterpreTerMul = " more than c_lang, but very slow...\n"
@@ -26,3 +30,7 @@ if 머신러닝에서의_단계 == "머신 러닝 워크 플로우 + 수집 + �
 regrassion_은cost의값을_가장작을때까지_내려버리는게_대표적인_지도학습_이니까_공부합시다 = 이진분류_고양이냐_강아지냐_군집화는_그룹을_짓는거_이런거는_지도학습에없고비지도학습 \
 + 강아지냐_호랑이냐_값을_보여주는거 + 강아지냐_호랑이냐_값을_보여주는거
 print(regrassion_은cost의값을_가장작을때까지_내려버리는게_대표적인_지도학습_이니까_공부합시다)
+
+알파곱하면은_옆으로가니까 = 경사하강법
+running_rate가컸을때는_경사하강을_할때는 = 알파곱하면은_옆으로가니까.경사하강법수행(3)
+print(running_rate가컸을때는_경사하강을_할때는)
