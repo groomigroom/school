@@ -7,7 +7,7 @@ class 경사하강법:
         return 튀어나가버리면_에러뜸 + "머신러닝에서 경사하강법은 중요하다..." + 최소값이_발산하게_되면은_학습이_안된다
 
 #main ------------------------------------------------------------------------------------------------
-deeping_learning_tensorflow = "PyTorch"
+deeping_learning_tensorflow = "PyTorch_is_show_on_the_world"
 PyTorch = "Keras\n"
 PythonIsInterpreTerMul = " more than c_lang, but very slow...\n"
 GPUAndCPUPowerISSoUpupup = " now 2026 and pandas is data to for, \n 2chawon is pandas \n numpy는 행렬 연산\n"
