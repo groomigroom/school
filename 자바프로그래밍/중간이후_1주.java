@@ -91,6 +91,7 @@ public class MainPart {
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		System.out.println(생성자와메서드);
+		System.out.println("문제 이 코드의 출력값의 공백 포함 글자수를 말씀해 주세요.");
 	}
 
 }
