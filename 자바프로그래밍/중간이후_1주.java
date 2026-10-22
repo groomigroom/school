@@ -1,5 +1,6 @@
 class Donut {
 	int 도넛의가격;
+	double price;
 	
 	Donut(){
 		System.out.println("도넛 객체가 생성되었습니다.!!!");
@@ -9,9 +10,15 @@ class Donut {
 		System.out.println("\n도넛 많이 사주세요");
 		도넛의가격 = 도넛가게주소;
 	}
+	Donut(double price) {
+		this.price = price;
+	}
 	
 	public void show() {
 		System.out.println(도넛의가격 + "원입니다.");
+	}
+	public void Doubleshow(double price2) {
+		System.out.println(price + "원입니다.\n\n\n\n" + price2);
 	}
 }
 
@@ -43,6 +50,8 @@ public class MainPart {
 		생성자와메서드 += "생성자가 이제 2개가 될겁니다.\n";
 		Donut dTeul = new Donut(200);
 		dTeul.show();
+		Donut dTeulDoubleshow = new Donut(200.222);
+		dTeul.Doubleshow(3.14159);
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		System.out.println(생성자와메서드);
