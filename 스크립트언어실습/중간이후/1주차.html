@@ -186,6 +186,23 @@
     console.log(~열심히공부하는구름이가좋아하는변수);
     console.log("5는 2진수로 0101이다.");
     console.log(0.1 / 0.3);
+    let grade;
+    let score = prompt("점수 입력", 100);
+    if (score >= 90) {
+        grade = 'A';
+        document.write("<h1>축하해요</h1>");
+
+    } else if (score >= 80) {
+        grade = 'B';
+        document.write("<h1>공부 좀 더 하세요</h1>");
+    } else if (score >= 70) {
+        grade = 'C';
+        document.write("<h1>과제 드릴게요..</h1>");
+    } else {
+        grade = 'F';
+        document.write("<h1>공부에 재능이 없네요.</h1>");
+    }
+    document.write("<h2>점수는" + score + "이며" + grade + "이다.</h2>")
 </script>
 </body>
 </html>
