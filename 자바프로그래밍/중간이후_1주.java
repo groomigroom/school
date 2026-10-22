@@ -1,6 +1,11 @@
 class Donut {
 	int 도넛의가격;
 	double price;
+	int 도넛의모양;
+	int 도넛의생김새의번호;
+	int 도넛분류번호;
+	int 도넛소개긃번호;
+	int 도넛물류창고위치주소값;
 	
 	Donut(){
 		System.out.println("도넛 객체가 생성되었습니다.!!!");
@@ -13,12 +18,31 @@ class Donut {
 	Donut(double price) {
 		this.price = price;
 	}
+	Donut(double price, int 도넛의가격, int 도넛의모양, int 도넛의생김새의번호, int 도넛분류번호, int 도넛소개긃번호, int 도넛물류창고위치주소값) {
+		this.price = price;
+		this.도넛의가격 = 도넛의가격;
+		this.도넛의모양 = 도넛의모양;
+		this.도넛의생김새의번호 = 도넛의생김새의번호;
+		this.도넛분류번호 = 도넛분류번호;
+		this.도넛소개긃번호 = 도넛소개긃번호;
+		this.도넛물류창고위치주소값 = 도넛물류창고위치주소값;
+	}
 	
 	public void show() {
 		System.out.println(도넛의가격 + "원입니다.");
 	}
-	public void Doubleshow(double price2) {
+	public void doubleshow(double price2) {
 		System.out.println(price + "원입니다.\n\n\n\n" + price2);
+	}
+	public void donut의모든정보를많이보여주는거() {
+		System.out.println("<도넛의 모든 정보입니다.>\n" +
+				price + " price\n" +
+		도넛의가격 + " 도넛의가격\n" +
+		도넛의모양 + " 도넛의모양\n" +
+		도넛의생김새의번호 + " 도넛의생김새의번호\n" +
+		도넛분류번호 + " 도넛분류번호\n" +
+		도넛소개긃번호 + " 도넛소개긃번호\n" +
+		도넛물류창고위치주소값 + " 도넛물류창고위치주소값" + "\n\n\n\n");
 	}
 }
 
@@ -51,7 +75,15 @@ public class MainPart {
 		Donut dTeul = new Donut(200);
 		dTeul.show();
 		Donut dTeulDoubleshow = new Donut(200.222);
-		dTeul.Doubleshow(3.14159);
+		dTeul.doubleshow(3.14159);
+		
+		Donut 도넛의물류창고정보포함 = new Donut(3.4145, 2323, 24242, 334455, 34534, 12, 13245);
+		도넛의물류창고정보포함.donut의모든정보를많이보여주는거();
+		생성자와메서드 += "private public protected 이런게 접근 지정자\n";
+		생성자와메서드 += "\n";
+		생성자와메서드 += "\n";
+		생성자와메서드 += "\n";
+		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		System.out.println(생성자와메서드);
