@@ -117,17 +117,33 @@ class Six {
     public String sixShow() {
         sixStr += "모델링 언어는 악보 기호, 수학 기호, 등과 uml 다어어그램 z 언어와 같은 형식적 표기법 등등이 있다.\n";
         sixStr += "모호한 표현이 없고 일관되어 모델링 하는데 매우 유용하다.. 사용자의 요구사항을 검증하는 의사소통 도구로도 사용\n";
-        sixStr += "\n";
-        sixStr += "\n";
-        sixStr += "\n";
-        sixStr += "\n";
-        sixStr += "\n";
+        sixStr += "dfd\n";
+        sixStr += "자료 흐름도\n";
+        sixStr += "처리 표현\n";
+        sixStr += "입력과 출력 자료 표현\n";
+        sixStr += "자료 저장소 표현\n";
+        sixStr += "자료 출원지와 목적지 표현\n";
+        sixStr += "위 단계에서 자료의 출원지와 목적지는 사각형 박스로 표현\n";
+        sixStr += "중요한게 자료 사전\n";
+        sixStr += "자료 흐름도에 존재하는 데이터에 대한 자세한 설명을 기록해 놓은 것\n";
+        sixStr += "= 정의, + 연결, () 생략 가능, [] 선택 [|] |로 분리된 둘중 하나만 선택 할 수 있다.\n";
+        sixStr += "{} 반복 ** 주석\n";
         return sixStr;
     }
 }
 
 class Seven {
-
+    String sevenString = "7교과목은\n";
+    public void sevenStrings() {
+        sevenString += "학점은 1 2 3 학점 중에 하나 이다. 이런것들 등등의 정보가 필요하다... \n";
+        sevenString += "소단위 명세서는 실제 알고리즘 형태로 작성한 것\n";
+        sevenString += "가장 많이 쓰는 거는 ER 다이어그램 \n";
+        sevenString += "\n";
+        sevenString += "\n";
+        sevenString += "\n";
+        sevenString += "\n";
+        System.out.println(sevenString);
+    }
 }
 
 public class GroomiTime {
@@ -145,6 +161,8 @@ public class GroomiTime {
         System.out.println();
         Six six = new Six();
         System.out.println(six.sixShow());
+        Seven seveen = new Seven();
+        seveen.sevenStrings();
 
         System.out.println("위 출력값에서 \'요\'자가 몇 자인지 개수를 세어주세요.");
     }
