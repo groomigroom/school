@@ -222,8 +222,8 @@ public class MainPart {
 		veryveryverdonutontheteul.showReallyRealKindDonut();
 		생성자와메서드 += "메서드는 항상 클래스 내부에 있어야 한다..\n";
 		생성자와메서드 += "만약 여기에 return이 없다. 그러면 void를 써야 됩니다.!!!!!!!!\n";
-		생성자와메서드 += "\n";
-		생성자와메서드 += "\n";
+		생성자와메서드 += "반환하는 값이 정수이면 int function(){} 이런식으로\n";
+		생성자와메서드 += "반환값이 정수배열 형태이면, int[] function() {} 이런식으로!!\n";
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
