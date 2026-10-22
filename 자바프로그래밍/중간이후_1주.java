@@ -11,6 +11,7 @@ class Donut {
 	double 매개변수가하나더추가된생성자의도넛값last;
 	
 	Donut(){
+		//여기서 아무 내용도 없으면 기본 생성자입니다. 컴파일러가 자동으로 추가해 주는거입니다.
 		System.out.println("도넛 객체가 생성되었습니다.!!!");
 		도넛의가격 = 3000;
 	}
@@ -103,6 +104,56 @@ class Donut {
 	}
 }
 
+class KindDonut {
+	String donutName;
+	int donutPrice;
+	
+	//this를 사용하는 기본 생성자
+	KindDonut(){
+		this("기본적인 도넛", 2000);
+		//이런 this는 쓸거면 가장 첫줄에 써야 된다.
+		System.out.println("친절하게 도넛을 만들게요");
+	}
+	KindDonut(String donutName, int donutPrice){
+		this.donutName = donutName;
+		this.donutPrice = donutPrice;
+	}
+	
+	public void showOnKindDonut(int things) {
+		System.out.println("\n<정말 친절한 도넛 가게 최종 가격>\n" + (things * donutPrice) + "원의 " 
+	+ donutName + "이다.\n" + "<정말 친절한 도넛 가게 최종 가격>\n");
+	}
+}
+
+class ReallyRealKindDonut {
+	String kindRealDonutName;
+	ReallyRealKindDonut() {
+		this("정말 친절하게 만든 도넛");
+	}
+	ReallyRealKindDonut(String kindRealDonutName) {
+		this.kindRealDonutName = kindRealDonutName;
+	}
+	public void showReallyRealKindDonut() {
+		System.out.println("\n안녕하세요 고객님 정말정말 친절한 도넛입니다.");
+		System.out.println("final은 상수입니다. 안녕하세요 고객님 정말정말 친절한 도넛입니다.");
+		System.out.println("\n안녕하세요 고객님 정말정말 친절한 도넛입니다.");
+		System.out.println("final은 상수입니다. 안녕하세요 고객님 정말정말 친절한 도넛입니다.");
+		System.out.println("\n안녕하세요 고객님 정말정말 친절한 도넛입니다.");
+		System.out.println("final은 상수입니다. 안녕하세요 고객님 정말정말 친절한 도넛입니다.");
+		System.out.println("\n안녕하세요 고객님 정말정말 친절한 도넛입니다.");
+		System.out.println("final은 상수입니다. 안녕하세요 고객님 정말정말 친절한 도넛입니다.");
+		System.out.println(kindRealDonutName);
+		System.out.println(kindRealDonutName);
+		System.out.println(kindRealDonutName);
+		System.out.println(kindRealDonutName);
+		System.out.println(kindRealDonutName);
+		System.out.println(kindRealDonutName);
+		System.out.println(kindRealDonutName);
+		System.out.println(kindRealDonutName);
+		System.out.println(kindRealDonutName);
+	}
+}
+
 public class MainPart {
 
 	public static void main(String[] args) {
@@ -153,6 +204,25 @@ public class MainPart {
 		생성자와메서드 += "클래스를 생성하는거는 알겠는데...\n";
 		생성자와메서드 += "공부합시다...\n";
 		생성자와메서드 += "생성자는 내가 만들지 않더라도 기본적으로 생기는데, 생성자를 만들게 되면 기본 생성자는 자동으로 생성되지 않음..\n";
+		생성자와메서드 += "Donut(int p) {price = p;} 이런식으로 생성자 만들어 놓고\n";
+		생성자와메서드 += "Donut d1 = new Donut(); 이렇게 기본 생성자 부르는 방식으로 하면 에러 뜸.\n";
+		생성자와메서드 += "this 예약어는 객체 자기 자신을 가리키는 참조 변수이다. this 메서드도 있다....\n";
+		생성자와메서드 += "예시로 class Donut\n";
+		생성자와메서드 += "int price;\n";
+		생성자와메서드 += "Donut(int price) {\n";
+		생성자와메서드 += "this.price = price;\n";
+		생성자와메서드 += "}\n";
+		KindDonut veryKindDonut = new KindDonut();
+		veryKindDonut.showOnKindDonut(22);
+		KindDonut veryKindDonut222 = new KindDonut("맛없는 도넛", 223);
+		veryKindDonut222.showOnKindDonut(221);
+		ReallyRealKindDonut veryveryverdonut = new ReallyRealKindDonut();
+		veryveryverdonut.showReallyRealKindDonut();
+		ReallyRealKindDonut veryveryverdonutontheteul = new ReallyRealKindDonut("좋은 원재료를 사용해서 만든 도넛");
+		veryveryverdonutontheteul.showReallyRealKindDonut();
+		생성자와메서드 += "\n";
+		생성자와메서드 += "\n";
+		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
