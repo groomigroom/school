@@ -154,8 +154,47 @@ class ReallyRealKindDonut {
 	}
 }
 
-public class MainPart {
+class RealMenuHaksikNONONOHakSikHakSikIsSoExpensiveSOSoExpensiveExpensive{
+	int realHaksik;
+	int price;
+	String menuRealMenu;
+	int foodLocalLiteMenuNumber;
+	
+	RealMenuHaksikNONONOHakSikHakSikIsSoExpensiveSOSoExpensiveExpensive(int realHaksik, int price) {
+		this.realHaksik = realHaksik;
+		this.price = price;
+	}
+}
 
+public class MainPart {
+	//이거 새로운거
+	static class Restaurant {
+		String name;
+		int basePrice, deliveryFee, totalCost;
+		Restaurant(String name, int basePrice) {
+			this(name, basePrice, 0);
+		}
+		Restaurant(String name, int basePrice, int deliveryFee) {
+			this.name = name;
+			this.basePrice = basePrice;
+			this.deliveryFee = deliveryFee;
+			this.totalCost = basePrice + deliveryFee;
+		}
+		void printShow() {
+			System.out.println("[" + name + "]" );
+			System.out.println("가격: " + basePrice + "원" );
+			System.out.println("배달료: " + deliveryFee + "원" );
+			System.out.println("총 결제 금액: " + totalCost + "원\n" );
+			System.out.println("감사합니다. 고객님 또 이용해 주십시오..232" );
+			System.out.println("감사합니다. 고객님 또 이용해 주십시오..232" );
+			System.out.println("감사합니다. 고객님 또 이용해 주십시오..232" );
+			System.out.println("감사합니다. 고객님 또 이용해 주십시오..232" );
+			System.out.println("감사합니다. 고객님 또 이용해 주십시오..232" );
+			System.out.println("감사합니다. 고객님 또 이용해 주십시오..232" );
+			System.out.println("감사합니다. 고객님 또 이용해 주십시오..232" );
+		}
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("김구름이");
 		String 생성자와메서드 = "중간고사 이후에 첫번째 시간입니다.\n";
@@ -230,6 +269,18 @@ public class MainPart {
 		생성자와메서드 += "메서드 오버로딩은 유지보수를 쉽게 할 수 있게 해줍니다.\n";
 		생성자와메서드 += "참조 자료형은 클래스나 String이 해당됩니다. 주소값이 복사되어서 전달됩니다...\n";
 		생성자와메서드 += "기본 자로형은 값 자체를 복사함. int double 등등이 있다. 정말 다양합니다.\n";
+		생성자와메서드 += "참조 자료형은 메서드에서 수정을 하면 원본에 영향이 있음 String은 제외되고, 그런다...\n";
+		Restaurant r1r2r3 = new Restaurant("구름이네 사료 가게", 12000, 2000);
+		r1r2r3.printShow();
+		Restaurant r1r2r3r4 = new Restaurant("구름이네 사료 가게22", 12002);
+		r1r2r3r4.printShow();
+		r1r2r3.printShow();
+		r1r2r3r4.printShow();
+		r1r2r3.printShow();
+		r1r2r3r4.printShow();
+		for (int i = 0; i < 10; i++) {
+			System.out.println("주문 또 해주세요");
+		}
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
