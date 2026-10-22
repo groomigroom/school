@@ -220,6 +220,9 @@ public class MainPart {
 		veryveryverdonut.showReallyRealKindDonut();
 		ReallyRealKindDonut veryveryverdonutontheteul = new ReallyRealKindDonut("좋은 원재료를 사용해서 만든 도넛");
 		veryveryverdonutontheteul.showReallyRealKindDonut();
+		생성자와메서드 += "메서드는 항상 클래스 내부에 있어야 한다..\n";
+		생성자와메서드 += "만약 여기에 return이 없다. 그러면 void를 써야 됩니다.!!!!!!!!\n";
+		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
 		생성자와메서드 += "\n";
