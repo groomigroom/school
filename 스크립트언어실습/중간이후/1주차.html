@@ -25,6 +25,7 @@
     </style>
 </head>
 <body>
+<h1>웹사이트를 실행하면 과제가 나옵니다.</h1>
 <a href="javascript:alert('김구름이 멍멍')">ㅇㅇ</a>
 <p class="script_show"></p>
 <p class="script_show2"></p>
@@ -32,6 +33,7 @@
 <div class="script_show4" onmouseover="script_function44()" onmouseout="function5()">글자 내용 바꾸기</div>
 <div class="script_show5" onclick="fun6()">글자 내용 바꾸기</div>
 <div class="teul6" onclick="fun7()">경고</div>
+<div onclick="fun8()">경고 console log 때려보기</div>
 <script>
     let html_css_js_is_on_web_site_doctype_html_span_is_not_block_tag = "span_is_not_block_hr_은 수평선<br>";
     html_css_js_is_on_web_site_doctype_html_span_is_not_block_tag += "span 태그는 인라인입니다....<br>";
@@ -108,6 +110,82 @@
             alert("계좌 번호를 보내드릴까요?");
         }
     }
+
+    document.write("<h2>공부해요</h2>");
+    document.write("<h3>공부해요</h3>");
+    document.write("<h4>공부해요</h4>");
+    document.write("<h5>공부해요</h5>");
+    document.write("<h6>공부해요</h6>");
+    document.write("<h1>공부해요</h1>");
+    document.write("<h2>공부해요</h2>");
+    document.write("<h3>공부해요</h3>");
+    document.write("<h4>공부해요</h4>");
+    document.write("<h5>공부해요</h5>");
+    document.write("<h6>공부해요</h6>");
+    document.write("<h1>공부해요</h1>");
+    document.writeln("<h3>공부하고 또 공부해요 우리 모두</h3>")
+    document.writeln("<h3>이클립스나</h3>")
+    document.writeln("<h3>인텔리제이를 켜고</h3>")
+    document.writeln("<h3>스프링부트 돌려봐요</h3>")
+    for (let i = 0; i < 2; i++) {
+        let ret = prompt("이 사이트가 왜 이렇게 작동하는지 하나하나 자세히 설명해 주세요", "김구름");
+        if (ret === "김구름") {
+            alert("멍멍");
+        } else if (ret === null) {
+            alert("공부하세요");
+        } else {
+            alert("나가세요");
+        }
+    }
+    document.write("<p>$ 및 _ 만 변수명에 사용 가능. 숫자는 처음에 쓰면 안되는 거.</p>");
+    document.write("<p>자바스크립트의 주석 처리는 /**/ 또는 //이다..</p>");
+    document.write("<p>값이 없다는 것을 나타내 주는 거는 null 값이 할당되지 않은거는 undifined 타입</p>");
+    const groomi_is_good = "const는 상수입니다.";
+    document.write("<p>" + groomi_is_good + groomi_is_good + groomi_is_good + "</p>");
+    let x;
+
+    function fun8() {
+        let y;
+        x = 10;
+        y = 20;
+        z = 30;
+        if (y == 20) {
+            let b = 40;
+            b++;
+            console.log(b + "지역 변수다.");
+        }
+        console.log(x);
+        console.log(y);
+        console.log(z);
+        console.log(b);
+    }
+
+    document.write("<p>" + groomi_is_good + groomi_is_good + groomi_is_good + "</p>");
+    let groomiLikeInt = parseInt("1");
+    groomiLikeInt -= 1;
+    document.write("<p>" + groomiLikeInt + "</p>");
+    let oct = 015;
+    document.write("8진법" + oct + "<br>");
+    let hex = 0x15;
+    document.write("16진법" + hex + "<br>");
+    let groomi_like_number = 0;
+    groomi_like_number = groomi_like_number + 2 * 64564 + 12 / 2 + 2;
+    if (groomi_like_number > 1) {
+        document.write(groomi_like_number + "<br>");
+    } else {
+        alert("김구름이");
+    }
+    let 열심히공부하는구름이가좋아하는변수 = 106;
+    let 열심히공부해요 = 77;
+    console.log(열심히공부하는구름이가좋아하는변수 & 열심히공부해요);
+    console.log(열심히공부하는구름이가좋아하는변수 | 열심히공부해요);
+    console.log(열심히공부하는구름이가좋아하는변수 ^ 열심히공부해요);
+    console.log(열심히공부하는구름이가좋아하는변수 << 2);
+    console.log(열심히공부하는구름이가좋아하는변수 >> 2);
+    //보수 만들 때 쓰는 거.. -> 음수 표현할 때 사용함.
+    console.log(~열심히공부하는구름이가좋아하는변수);
+    console.log("5는 2진수로 0101이다.");
+    console.log(0.1 / 0.3);
 </script>
 </body>
 </html>
