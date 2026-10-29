@@ -30,7 +30,12 @@ class package22 {
 		System.out.println("다른클래스에서도접근가능하고 " + 다른클래스에서도접근가능하고);
 		System.out.println("다른클래스에서도접근가능하고 " + 다른클래스에서도접근가능하고);
 		System.out.println("다른클래스에서도접근가능하고 " + 다른클래스에서도접근가능하고);
+		//왼쪽에서 프로젝트 명이 보이실텐데, src를 보시면 됩니다.
 	}
+}
+class 패키지만들기 {
+	String 패키지이름은_sec01 = "두번째꺼는 exam01";
+	String package_is_maked = "and show on the eclipse";
 }
 
 public class October29 {
