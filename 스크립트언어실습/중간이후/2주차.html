@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>즐거운 과제 시간</title>
+</head>
+<body>
+<!--예제 중심으로 볼거고요-->
+<div></div>
+<section class="groomi_three">
+    <h1>과제2</h1>
+    <h2>아래의 8개 칸 중에서 어떤 칸에 "구름이"를 입력해야지 안녕하세요.가 나오는지 서술하시오.</h2>
+    <input
+            style="border: 5px solid #333;"
+            type="text" id="groomi_three1">
+    <p class="groomi_three1p"></p>
+    <input type="text" id="groomi_three2">
+    <p class="groomi_three2p"></p>
+    <input type="text" id="groomi_three3">
+    <input type="text" id="groomi_three4">
+    <input type="text" id="groomi_three5">
+    <input type="text" id="groomi_three6">
+    <input type="text" id="groomi_three7">
+    <input type="text" id="groomi_three8">
+    <button type="submit" onclick="threeFunction()">제출하기33</button>
+    <p></p>
+</section>
+<section class="groomi_four">
+    <h1>과제3</h1>
+    <h2>놀이공원 입장료 계산기의 동작 원리를 서술하시오.</h2>
+    <h1>놀이공원 입장료 계산기</h1>
+    <p>나이와 키를 입력하세요</p>
+    <p>나이(세)</p>
+    <input type="number" id="groomi_four_age">
+    <p>키(cm)</p>
+    <input type="number" id="groomi_four_height">
+    <button type="submit" onclick="groomiFourFunction()">입장료 계산하기</button>
+    <p class="groomi_four_last_resultp">최종 결과</p>
+</section>
+<section class="groomi_five">
+    <h1>과제4</h1>
+    <h2>놀이공원 입장료 계산기의 동작 원리를 서술하시오.</h2>
+    <h1>놀이공원 입장료 계산기</h1>
+    <p>나이와 키를 입력하세요</p>
+    <p>나이(세)</p>
+    <input type="number" id="groomi_five_age">
+    <p>키(cm)</p>
+    <input type="number" id="groomi_five_height">
+    <button type="submit" onclick="groomiFiveFunction()">입장료 계산하기</button>
+    <p class="groomi_five_last_resultp">최종 결과</p>
+</section>
+<section class="groomi_six">
+    <h1>과제5</h1>
+    <h2></h2>
+    <button onclick="groomiSixFunction()">커피 주문하기</button>
+    <button onclick="groomiSevenFunction()">커피 주문하기22</button>
+</section>
+<script>
+    let reallyDiv = document.querySelector("div");
+    let reallyDivContent = "내용<br>";
+    reallyDivContent += "과제1<br>";
+    reallyDivContent += "어떻게 짝수 홀수를 판별하는지 서술하시오<br>";
+
+    // [중간 생략] prompt 및 과제1 내용...
+
+    // 과제2 영역 HTML 한 번에 조립하기
+    reallyDivContent += "<h1>짝수 홀수 판별하기</h1>";
+    reallyDivContent += "<input type='number' class='one'>";
+    reallyDivContent += "<button type='button' onclick='two()'>결과 보기</button>"; // submit 대신 button 추천
+
+    // 화면에 최종 HTML 반영 (한 번만 실행)
+    reallyDiv.innerHTML = reallyDivContent;
+
+    // 함수 선언
+    function two() {
+        // 🔥 버튼을 누른 '이 순간' 화면에 있는 .one 입력창을 새로 찾고 값을 가져옴
+        let one = document.querySelector(".one");
+        let oneValue = one.value;
+
+        console.log("입력된 값:", oneValue); // 콘솔에서 확인용
+
+        // 빈 값이 입력되었을 때의 예외 처리
+        if (oneValue === "") {
+            reallyDivContent += "숫자를 입력해주세요<br>";
+            reallyDiv.innerHTML = reallyDivContent;
+            return;
+        }
+
+        // 숫자로 변환 후 판별
+        let currentNumber = Number(oneValue);
+
+        if (currentNumber % 2 === 0) {
+            reallyDivContent += "짝수입니다.<br>";
+        } else if (currentNumber % 2 === 1) {
+            reallyDivContent += "홀수입니다.<br>";
+        } else {
+            reallyDivContent += "??<br>??<br>??<br>";
+        }
+
+        // 결과 반영
+        reallyDiv.innerHTML = reallyDivContent;
+    }
+
+    let groomi_three = document.querySelector(".groomi_three");
+    let groomi_three1 = document.querySelector("#groomi_three1");
+    let groomi_three1p = document.querySelector(".groomi_three1p");
+    let groomi_three1Text = "";
+    let groomi_three2 = document.querySelector("#groomi_three2");
+    let groomi_three2p = document.querySelector(".groomi_three2p");
+    let groomi_three2Text = "";
+
+    function threeFunction() {
+        if (groomi_three1.value === "구름이") {
+            groomi_three1Text += "구름이님 안녕하세요";
+            groomi_three1p.innerHTML = groomi_three1Text;
+        } else if (groomi_three2.value === "구룸이") {
+            groomi_three1Text += "구룸이님 안녕하세요";
+
+        } else {
+            groomi_three1Text += "안녕히 가세요";
+            groomi_three1p.innerHTML = groomi_three1Text;
+        }
+
+    }
+
+    /*
+    input type="number" id="groomi_four_age">
+    <p>키(cm)</p>
+    <input type="number" id="groomi_four_height">
+    <button type="submit" onclick="groomiFourFunction()">입장료 계산하기</button>
+    <p class="groomi_four_last_result">최종 결과</p>
+     */
+    let groomi_four_age = document.querySelector("#groomi_four_age");
+    let groomi_four_height = document.querySelector("#groomi_four_height");
+    let groomi_four_last_resultp = document.querySelector(".groomi_four_last_resultp");
+    let groomi_four_last_result_text = "";
+
+    function groomiFourFunction(){
+        console.log(groomi_four_age.value);
+        console.log(groomi_four_height.value);
+        if (Number(groomi_four_age.value) < 7) {
+            if (Number(groomi_four_height.value) >= 120) {
+                groomi_four_last_result_text = "어린이 요금 50000원";
+            } else {
+                groomi_four_last_result_text = "키 작음";
+            }
+        } else if (Number(groomi_four_age.value) < 19) {
+            if (Number(groomi_four_height.value) >= 120) {
+                groomi_four_last_result_text = "청소년 요금 100000원";
+            } else {
+                groomi_four_last_result_text = "키 작음";
+            }
+        } else if (Number(groomi_four_age.value) < 65) {
+            if (Number(groomi_four_height.value) >= 120) {
+                groomi_four_last_result_text = "어른 요금 150000원";
+            } else {
+                groomi_four_last_result_text = "키 작음";
+            }
+        } else {
+            if (Number(groomi_four_height.value) >= 120) {
+                groomi_four_last_result_text = "경로우대 70000원";
+            } else {
+                groomi_four_last_result_text = "키 작음";
+            }
+        }
+        groomi_four_last_resultp.innerHTML = groomi_four_last_result_text;
+    }
+    let groomi_five_age = document.querySelector("#groomi_five_age");
+    let groomi_five_height = document.querySelector("#groomi_five_height");
+    let groomi_five_last_resultp = document.querySelector(".groomi_five_last_resultp");
+    let groomi_five_last_result_text = "";
+
+    function groomiFiveFunction(){
+        console.log(groomi_five_age.value);
+        console.log(groomi_five_height.value);
+        if (Number(groomi_five_age.value) < 7) {
+            if (Number(groomi_five_height.value) >= 120) {
+                groomi_five_last_result_text = "어린이 요금 50000원";
+            } else {
+                groomi_five_last_result_text = "키 작음";
+            }
+        } else if (Number(groomi_five_age.value) < 19) {
+            if (Number(groomi_five_height.value) >= 120) {
+                groomi_five_last_result_text = "청소년 요금 100000원";
+            } else {
+                groomi_five_last_result_text = "키 작음";
+            }
+        } else if (Number(groomi_five_age.value) < 65) {
+            if (Number(groomi_five_height.value) >= 120) {
+                groomi_five_last_result_text = "어른 요금 150000원";
+            } else {
+                groomi_five_last_result_text = "키 작음";
+            }
+        } else {
+            if (Number(groomi_five_height.value) >= 120) {
+                groomi_five_last_result_text = "경로우대 70000원";
+            } else {
+                groomi_five_last_result_text = "키 작음";
+            }
+        }
+        groomi_five_last_resultp.innerHTML = groomi_five_last_result_text;
+    }
+
+    function groomiSixFunction() {
+        let six_menu = prompt("커피 메뉴 입력");
+        let price = 0;
+
+        switch (six_menu) {
+            case "민트초코라떼":
+                price = 3000;
+                break;
+            case "아메리카노":
+                price = 4000;
+                break;
+            case "생수":
+                price = 50000;
+                break;
+            default:
+                price = 30003333;
+        }
+        alert(six_menu + ": " + price + "원");
+    }
+
+    function groomiSevenFunction() {
+        let seven_menu = prompt("커피 메뉴 입력 22");
+        let price = 0;
+
+        switch (Number(seven_menu)) {
+            case 1:
+                price = 3000;
+                break;
+            case 2:
+                price = 4000;
+                break;
+            case 3:
+                price = 50000;
+                break;
+            default:
+                price = 30003333;
+        }
+        alert(seven_menu + ": " + price + "원");
+    }
+</script>
+</body>
+</html>
