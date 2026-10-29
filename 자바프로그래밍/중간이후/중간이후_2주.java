@@ -26,6 +26,11 @@ class package22 {
 	String 다른클래스에서도접근가능하고2 = "지금까지 하나의 단일 파일으로 했다면 오늘부터는 여러가지 파일로 해서 임포트도 하고 여러가지 해볼거다..";
 	String 다른클래스에서도접근가능하고3 = "지금까지 하나의 단일 파일으로 했다면 오늘부터는 여러가지 파일로 해서 임포트도 하고 여러가지 해볼거다..";
 	String 다른클래스에서도접근가능하고4 = "지금까지 하나의 단일 파일으로 했다면 오늘부터는 여러가지 파일로 해서 임포트도 하고 여러가지 해볼거다..";
+	public void show() {
+		System.out.println("다른클래스에서도접근가능하고 " + 다른클래스에서도접근가능하고);
+		System.out.println("다른클래스에서도접근가능하고 " + 다른클래스에서도접근가능하고);
+		System.out.println("다른클래스에서도접근가능하고 " + 다른클래스에서도접근가능하고);
+	}
 }
 
 public class October29 {
@@ -33,7 +38,7 @@ public class October29 {
 	public static void main(String[] args) {
 		패키지 pack = new 패키지();
 		String str1 = pack.패키지는서로관련된클래스들을;
-		
+		System.out.println(str1);
 	}
 
 }
