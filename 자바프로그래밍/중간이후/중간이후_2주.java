@@ -49,6 +49,10 @@ class DonutShop {
 	public String shopName = "도넛가게";
 	public void openShop() {
 		System.out.println(shopName + "열렸다");
+		System.out.println(shopName + "닫혔다");
+		System.out.println(shopName + "열렸다");
+		System.out.println(shopName + "장사가 잘 안된다..");
+		System.out.println(shopName + "돈 벌어야 되는데....");
 	}
 }
 
@@ -60,6 +64,7 @@ public class PublicExample {
 	}
 
 }
+
 
 
 */
