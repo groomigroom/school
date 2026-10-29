@@ -120,6 +120,132 @@ public class PublicExample {
 
  */
 
+//또 새로운 패키지 calculator
+//그 안에다가 sum 폴더를 또 만듦
+
+/*
+자바에서 패키지(Package)를 만드는 것과 일반 폴더(Folder)를 만드는 것은 기능과 역할에서 명확한 차이가 있습니다. 가장 핵심적인 차이는 자바 컴파일러와 JVM(자바 가상 머신)이 해당 디렉토리를 클래스의 '네임스페이스(구분자)'로 인식하느냐 아니냐입니다.
+두 개념의 차이점을 직관적으로 비교해 드리겠습니다.
+
+1. 핵심 차이점 요약
+
+
+구분	패키지 (Package)	폴더 (Folder)
+개념	자바 소스 코드의 논리적 그룹화 및 네임스페이스	운영체제(OS) 수준의 물리적 파일 저장소
+코드 반영	소스 파일 상단에 package 패키지명; 선언 필수	선언하지 않음 (기본 패키지에 속하게 됨)
+접근 제어	protected나 default 접근 제어자로 캡슐화 가능	접근 제어 기능 없음
+IDE 인식	개발 도구(Eclipse, IntelliJ 등)가 자바 소스 경로로 인식	단순 일반 파일 보관함으로 인식
+
+
+2. 패키지(Package)의 특징과 역할
+
+• 이름 충돌 방지: 서로 다른 개발자가 만든 클래스 이름이 같더라도, 패키지가 다르면 다른 클래스로 인식합니다. (예: com.company.util.Timer vs org.project.util.Timer)
+• 접근 제어(보안): 자바의 접근 제어자 중 default(아무것도 안 붙임)와 protected는 같은 패키지 내의 클래스끼리만 접근을 허용하거나 제한하는 기준이 됩니다.
+• 논리적 구조화: 기능별(예: controller, service, dto)로 코드를 분류하여 관리하기 쉽게 만듭니다.
+
+3. 폴더(Folder)의 특징과 역할
+
+• 단순 저장소: 컴퓨터 OS(Windows, Mac 등) 관점에서의 디렉토리일 뿐입니다.
+• 자바와의 관계: 자바 언어 자체는 일반 폴더를 구조적 의미로 이해하지 못합니다. 폴더 안에 자바 파일을 넣고 패키지 선언을 하지 않으면, 자바는 이를 '이름 없는 기본 패키지(Default Package)'에 있는 클래스로 취급합니다.
+
+💡 쉽게 이해하는 비유
+
+• 폴더는 서랍장 안의 '단순히 칸막이만 쳐진 구역'입니다. 물건을 섞이지 않게 담아둘 뿐입니다.
+• 패키지는 그 구역에 '공식 이름표와 출입 자격증'을 붙인 것입니다. 자바라는 관리자는 이 이름표(패키지명)를 보고 물건(클래스)을 찾고, 자격증(접근 제어자)을 확인하여 아무나 꺼내지 못하게 막습니다.
+향후 코드 작성이나 프로젝트 구조 설계와 관련하여 더 궁금한 점이 있으신가요? 예를 들어 IDE(IntelliJ/Eclipse) 설정 문제나 올바른 패키지 명명 규칙에 대해 도움을 드릴 수 있습니다.
+
+ */
+
+
+//Cal.java
+
+/*
+package Calculator;
+
+public class Cal {
+	public int add(int a, int b) {
+		System.out.println("더하기");
+		System.out.println("더하기");
+		System.out.println("더하기");
+		System.out.println("더하기");
+		return a + b;
+	}
+}
+
+
+
+ */
+
+//Main.java
+
+/*
+package main;
+
+import Calculator.Cal;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cal cal = new Cal();
+		//ctrl shift o로 임포트 하기..
+		int a = cal.add(1, 1);
+		System.out.println(a);
+		int b = cal.add(1, 2);
+		System.out.println(b);
+		int c = cal.add(12, 22);
+		System.out.println(c);
+		int d = cal.add(12, 222);
+		System.out.println(d);
+	}
+
+}
+
+
+
+
+ */
+
+//회원 정보를 관리하는 클래스 만들기
+
+//Main.java
+
+/*
+package main;
+
+import member.Member;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Member mem1 = new Member("홍길동", 25);
+		mem1.showInfo();
+	}
+
+}
+
+ */
+
+//Member.java
+
+/*
+package member;
+
+public class Member {
+	private String name;
+	private int age;
+	
+	public Member (String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
+	public void showInfo() {
+		System.out.println(name + "의 나이는 " + age + "세 입니다.");
+	}
+}
+
+ */
 
 public class October29 {
 
