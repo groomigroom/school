@@ -1,4 +1,14 @@
-//import sec01.exam01.DonutShop;
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
+// 코드를 돌리시면 과제가 나옵니다.
 
 class 패키지 {
 	String 패키지는서로관련된클래스들을 = "하나의 공간으로 묶은단위";
@@ -247,6 +257,243 @@ public class Member {
 
  */
 
+
+//계산기 세트 하다맘
+
+/*
+package main;
+
+import java.util.Scanner;
+
+import calculator.Add;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("계산기입니다.");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1번째 수 입력");
+		int a = sc.nextInt();
+		System.out.println("연산자 입력 +, -, *, /");
+		String oper = sc.next();
+		System.out.println("2번째 수 입력");
+		int b = sc.nextInt();
+		//계산 처리하기
+		if (oper.equals("+")) {
+			Add result = new Add(a, b);
+		} else if (oper.equals("-")) {
+			
+		}
+		sc.close();
+	}
+
+}
+
+
+-----------------------------------------
+
+
+package calculator;
+
+public class Add {
+	private int a;
+	private int b;
+	public Add(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public void addNumber() {
+		System.out.println(a + " + " + b + )
+	}
+}
+
+-----------------------------------------
+
+
+package calculator;
+
+public class Sub {
+	private int a;
+	private int b;
+	public Sub(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public int subNumber() {
+		return a - b;
+	}
+}
+
+-----------------------------------------
+
+
+package calculator;
+
+public class Mul {
+	private int a;
+	private int b;
+	public Mul(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public int mulNumber() {
+		return a * b;
+	}
+}
+
+
+
+-----------------------------------------
+
+
+package calculator;
+
+public class Div {
+	private int a;
+	private int b;
+	public Div(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public double divNumber() {
+		return (double)a / b;
+	}
+}
+
+
+---------------------------------------------------
+
+ */
+
+//계산기 최종
+
+/*
+package main;
+
+import java.util.Scanner;
+
+import calculator.Add;
+import calculator.Div;
+import calculator.Mul;
+import calculator.Sub;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("계산기입니다.");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1번째 수 입력");
+		int a = sc.nextInt();
+		System.out.println("연산자 입력 +, -, *, /");
+		String oper = sc.next();
+		System.out.println("2번째 수 입력");
+		int b = sc.nextInt();
+		//계산 처리하기
+		if (oper.equals("+")) {
+			Add result = new Add(a, b);
+			result.addNumber();
+		} else if (oper.equals("-")) {
+			Sub result = new Sub(a, b);
+			result.subNumber();
+		} else if (oper.equals("*")) {
+			Mul result = new Mul(a, b);
+			result.mulNumber();
+		} else if (oper.equals("/")) {
+			Div result = new Div(a, b);
+			result.divNumber();
+		} else {
+			System.out.println("잘못된 입력입니다.");
+		}
+		sc.close();
+	}
+
+}
+
+
+-----------------------------
+
+
+package calculator;
+
+public class Add {
+	private int a;
+	private int b;
+	public Add(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public void addNumber() {
+		System.out.println(a + " + " + b + " = " + (a+b));
+	}
+}
+
+-----------------------------
+
+
+
+package calculator;
+
+public class Sub {
+	private int a;
+	private int b;
+	public Sub(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public void subNumber() {
+		System.out.println(a + " - " + b + " = " + (a-b));
+	}
+}
+
+-----------------------------
+
+
+package calculator;
+
+public class Mul {
+	private int a;
+	private int b;
+	public Mul(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public void mulNumber() {
+		System.out.println(a + " * " + b + " = " + (a*b));
+	}
+}
+
+
+-----------------------------
+
+
+package calculator;
+
+public class Div {
+	private int a;
+	private int b;
+	public Div(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public void divNumber() {
+		System.out.println(a + " * " + b + " = " + ((double)a/b));
+	}
+}
+
+
+
+
+
+ */
+
 public class October29 {
 
 	public static void main(String[] args) {
@@ -254,7 +501,8 @@ public class October29 {
 		String str1 = pack.패키지는서로관련된클래스들을;
 		System.out.println(str1);
 		System.out.println("1번 문제");
-		System.out.println("이 코드에서 패키지라는 단어가 몇 번 나왔을가요??????????????");
+		System.out.println("이 코드에서 패키지라는 단어가 몇 번 나왔을가요?");
+		System.out.println("주석 부분의 내용을 자세히 설명해 주세요");
 	}
 
 }
