@@ -36,7 +36,29 @@ class package22 {
 class 패키지만들기 {
 	String 패키지이름은_sec01 = "두번째꺼는 exam01";
 	String package_is_maked = "and show on the eclipse";
+	String PublicExample = "이라는 클래스를 만들꺼다.";
+	String 메인메소드체크하시고요 = "그렇게해서 만들꺼다. 아래와 주석과 같이 만들어진다.";
+	String see = "주석 내용을 자세히 보세요";
 }
+
+/*
+package sec01.exam01;
+
+class DonutShop {
+	
+}
+
+public class PublicExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+*/
+
 
 public class October29 {
 
@@ -44,6 +66,8 @@ public class October29 {
 		패키지 pack = new 패키지();
 		String str1 = pack.패키지는서로관련된클래스들을;
 		System.out.println(str1);
+		System.out.println("1번 문제");
+		System.out.println("이 코드에서 패키지라는 단어가 몇 번 나왔을가요??????????????");
 	}
 
 }
