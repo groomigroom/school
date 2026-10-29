@@ -1,3 +1,5 @@
+//import sec01.exam01.DonutShop;
+
 class 패키지 {
 	String 패키지는서로관련된클래스들을 = "하나의 공간으로 묶은단위";
 	String 클래스파링을논리적으론정리하고 = "관리하는 폴더 시스템";
@@ -68,6 +70,55 @@ public class PublicExample {
 
 
 */
+
+//위에꺼 아래와 같이 변화
+//이름은 DonutShop이라는 클래스로 이름을 바꾸기
+
+/*
+package sec01.exam01;
+
+class DonutShop {
+	public String shopName = "도넛가게";
+	public void openShop() {
+		System.out.println(shopName + "열렸다");
+		System.out.println(shopName + "닫혔다");
+		System.out.println(shopName + "열렸다");
+		System.out.println(shopName + "장사가 잘 안된다..");
+		System.out.println(shopName + "돈 벌어야 되는데....");
+		System.out.println(shopName + "돈 더 벌어야 되는데....");
+		System.out.println(shopName + "돈 더 벌고 싶은데 그러면 되는데....");
+	}
+}
+
+
+*/
+
+
+//PublicExample.java
+
+/*
+package sec01.exam01;
+
+public class PublicExample {
+
+	public static void main(String[] args) {
+		//java study is good for health
+		//springboot
+		//egov
+		//class files
+		//itellij
+		DonutShop shop = new DonutShop();
+		System.out.println(shop.shopName);
+		shop.openShop();
+		System.out.println("왜 도넛 장사가 잘 안될까요?");
+		
+	}
+
+}
+
+
+
+ */
 
 
 public class October29 {
