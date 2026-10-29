@@ -39,13 +39,17 @@ class 패키지만들기 {
 	String PublicExample = "이라는 클래스를 만들꺼다.";
 	String 메인메소드체크하시고요 = "그렇게해서 만들꺼다. 아래와 주석과 같이 만들어진다.";
 	String see = "주석 내용을 자세히 보세요";
+	String DonutShop = "도넛숍 클래스를 만듥거에요";
 }
 
 /*
 package sec01.exam01;
 
 class DonutShop {
-	
+	public String shopName = "도넛가게";
+	public void openShop() {
+		System.out.println(shopName + "열렸다");
+	}
 }
 
 public class PublicExample {
@@ -56,6 +60,7 @@ public class PublicExample {
 	}
 
 }
+
 
 */
 
