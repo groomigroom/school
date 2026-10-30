@@ -17,6 +17,18 @@ public class NTRM (
     int ADEN_ADC_Enable = 1;
     int ADSC_ADC_start_conversion = 3223;
     int 인터럽트서비스루틴이라는_셋째가_일을가장많이하게됨 = "......././.andornot_gate로 되어있는게 계속 동작함..../././";
+    int 나머지3개는_분주비설정하는거다_16메가헤르츠를_분주비를설정해서_원하는시간에설정할수있습니다 = 2323;
+    int 
+    int 
+    int 
+    int 
+    int 
+    int 
+    int 
+    int 
+    int 
+    int 
+    int 
     int 
     int 
     int 
