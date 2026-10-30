@@ -1,6 +1,68 @@
 @Controller
 public class NTRM (
   public String 30년50년 () {
+/*
+ATmega128A에서 \*\*조도센서(Light Sensor)\*\*는 주변의 밝기, 즉 빛의 세기를 측정하는 센서야.
+
+쉽게 말하면 주변이 밝은지 어두운지를 감지해서 마이크로컨트롤러인 ATmega128A에 전기 신호로 전달하는 역할을 해.
+
+## 1. 조도센서의 역할
+
+[Модуль датчика освещённости (датчик света) для Arduino купить в магазине Амперо / Arduino и электронные модули / Arduino и конструирование](https://images.openai.com/static-rsc-4/o9x9-fWWWYg_4IO9emuzT6QLinkr7o92uqc28sXDxqBSki7tAkJBtlOGzrOWwnqaYGP39XzXaq-Y1VfDS4JH3DLSuNIUBBt02I9CngzOQtcqiT7w_1mSZXmm1MdT85kPjE4W6GkEih6To5PvIZ83dHxcrXunc23r2ODs8OY0lRk?purpose=inline)
+
+[ampero.ru](https://ampero.ru/modul-datchika-osveshchennosti-datchik-sveta-dlya-arduino.html?utm_source=chatgpt.com)
+
+- 주변이 밝으면 빛의 세기를 감지
+- 주변이 어두우면 빛이 약해진 것을 감지
+- 측정한 밝기를 전압값으로 변환
+- ATmega128A가 그 값을 읽어 LED 등을 제어
+
+## 2. ATmega128A와 조도센서의 연결 원리
+
+ATmega128A는 ADC(아날로그-디지털 변환기)를 이용해서 조도센서의 아날로그 전압을 디지털 값으로 변환해.
+
+ATmega128A의 ADC는 10비트이므로 측정값은 다음과 같아.
+
+\\[ 0 \sim 1023 \\]
+
+| 측정값 예시 | 의미     |
+| ------ | ------ |
+| 100    | 어두운 환경 |
+| 500    | 중간 밝기  |
+| 900    | 밝은 환경  |
+
+※ 실제 값은 센서 회로의 연결 방식에 따라 반대로 나타날 수도 있어.
+
+## 3. 실제 활용 예시
+
+[Automated Car Parking System using PLC Ladder Logic | Fouzan Mulla posted on the topic | LinkedIn](https://images.openai.com/static-rsc-4/6rZSxPrjfofz5S0x5ITvVnuxtRg-pzW4CfXb5YaLrjqV6yEuAthoWBBmy2nvHFfIuM2XgKKnzlHt6kXaSrbPCLTUQ7Z2DF3QFsdNir19xMpfoQrF4hjzbGW9GkAgBOO9ruDy8VZH-qIJV1uW8XDQDzIw9_V5iaqJKoXJUrfVVUo?purpose=inline)
+
+[Tìm hiểu ứng dụng thực tế của cảm biến ánh sáng Arduino trong đời sống 			 			 			 Makeblock](https://images.openai.com/static-rsc-4/_omNTznyOoTHjV9c1qN7p4OkBpuEvyPY5xe6Aw85vPX1ZdZBWmRj0kZQd4rIH_5D5KZYGHgmzQ-nZL_ETV_uhQe6BQ7A4qS5jLyJtczCoyqBu0UitAzAqGTejxjui9ax0tIP7ysYczogXG3lPhi-ifFH0yRMJuBSNruRCR6yNfg?purpose=inline)
+
+[아두이노 프로젝트 | 어두우면 켜지는 가로등 :: VEDACUBE](https://images.openai.com/static-rsc-4/xTbXTlknfM6hc_eFiiMvAZwvqBstJmaKFlhSEjDOypbqFRKgIH7H7gwBGlv24F0E5653dSPrUMFpXP1xNhS5dbSg2y7NfLma_bSnQOCMfDte9oEcT4duF9J3dX2OwxpiARDZIkqUyaY6ZRBqgfzgX6h39baYzPvtZrVcQdmdoow?purpose=inline)
+
+[Light Sensor Using Arduino - Hackster.io](https://images.openai.com/static-rsc-4/B_ncePYI-oiXnOmzVwSHOfp47JpoD4UDo0u3Ah4oUpyFXbmNd-8HriGkhXaKTg-MDUUBNihPxAwFRF3vee6tVYBUP5fc65AXkhwz0TWZFlJicjNxl9A5V_fBybd6IHRa-xN7F7rX2UTu1paNlFCtpEZ9Gbo6M4BiDo75YuviQKE?purpose=inline)
+
+[psgpraveen](https://images.openai.com/static-rsc-4/X85jf5bELr4_2zXXzTHewdCOpJWvzCTrl10_NP5PN2jEls_lKQp_JUT_32b2mKsOuiJOSr9uTwBajxaX5MksPhnyEWGsZjGSpNJ35MydwTKR3b8qPlpgntIX9DHhNUri3Zvv14XsAmCH1430nejt9yvyCLnhju6v-UsvYZjejuk?purpose=inline)
+
+[What is a Photoresistor | Easybom](https://images.openai.com/static-rsc-4/Y-oesT5tTmVdh-4zDd-tpI0Ayjoh4KQftU3JdEgbM55RmGEG5jfEcu1EG-aokFGe2nmAVNeNqI9Da1jNM4QPK6lvzFrxxtvaxnBYITKhYc6u-sGKCGEcarzmXzAZYINjKm2_J8M1jHf6GNvSQp_sy6dSQ1F38XvAk7t_Dyurk98?purpose=inline)
+
+1. 낮에는 밝기를 감지해서 LED를 끈다.
+2. 밤에는 어두움을 감지해서 LED를 켠다.
+3. 주변 밝기에 따라 LED 밝기를 자동으로 조절한다.
+
+## 4. 시험이나 수업에서 기억할 핵심
+
+- 조도센서: 주변 빛의 밝기를 측정하는 센서
+- CDS: 빛에 따라 저항값이 변하는 소자
+- ADC: 아날로그 전압을 디지털 값으로 변환
+- ATmega128A: ADC를 통해 센서값을 읽고 LED 등을 제어
+- ADC 해상도: 10비트, 0\~1023
+
+참고: [ATmega128A 공식 데이터시트](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8151-8-bit-AVR-ATmega128A_Datasheet.pdf?utm_source=chatgpt.com) (ADC 부분)
+
+한 문장으로 정리하면: 조도센서는 주변의 밝기를 감지하여 ATmega128A가 빛의 세기에 따라 자동으로 장치를 제어할 수 있도록 해주는 센서야.
+*/
     int 앞으로어떻게해야할지보면좋겠죠 = "ADC";
     int 연속적으로변하는물리량이아날로그이다 = "stone is analog";
     int 영에서_5볼트로들오오는아날로그를0에서1024로분해해준다 = "회로들은 and or not 게이트 겁나 붙어있는거다..././././";
