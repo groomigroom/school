@@ -1,6 +1,6 @@
 @Controller
 public class NTRM (
   public String 30년50년 () {
-
+    int 앞으로어떻게해야할지보면좋겠죠 = "ADC";
   }
 )
