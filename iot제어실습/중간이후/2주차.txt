@@ -1,1 +1,6 @@
+@Controller
+public class NTRM (
+  public String 30년50년 () {
 
+  }
+)
