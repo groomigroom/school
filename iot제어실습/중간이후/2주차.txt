@@ -2,6 +2,38 @@
 public class NTRM (
   public String 30년50년 () {
 /*
+ATmega128A에서 Gain 10x(10배 증폭) 기능을 거의 사용하지 않는 이유는 크게 두 가지로 설명할 수 있어.
+
+1. 입력 전압 범위가 제한됨: 신호를 10배 증폭하면 작은 입력 변화도 크게 나타나 ADC의 측정 범위를 초과하거나 신호가 포화될 수 있어.
+2. 외부 증폭 회로로 대체 가능: 필요한 경우 OP-AMP 같은 외부 증폭 회로를 사용해 원하는 증폭률과 측정 범위를 조절할 수 있어.
+
+다만 ATmega128A의 ADC 자체에는 일반적인 10배 PGA 기능이 내장되어 있지 않다는 점을 구분해야 해.
+
+그런데 ATmega128A에서는 조금 더 정확하게 알아둘 내용이 있어.
+
+ATmega128A의 10배 Gain은 특정 차동 ADC 입력에서만 사용할 수 있어.
+
+- 일반 단일 입력(Single-ended): Gain 증폭 기능 사용 불가
+- 차동 입력(Differential): 1배, 10배, 200배 선택 가능
+- 10배 Gain 사용 시: ADC 유효 분해능이 10비트에서 약 8비트로 감소
+
+따라서 10배 Gain을 사용하면 작은 신호를 측정하기는 쉬워지지만, 측정 정밀도가 떨어질 수 있어.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://ww1.microchip.com\&sz=32)
+
+Microchip+1
+
+
+
+시험 답안용으로 정리하면:
+
+"ATmega128A의 10배 Gain은 차동 입력에만 적용되며, 사용 시 ADC 분해능이 감소하고 입력 신호 범위가 제한되기 때문에 일반적인 ADC 측정에서는 잘 사용하지 않는다."
+
+참고: [ATmega128A 공식 데이터시트 – ADC 항목](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8151-8-bit-AVR-ATmega128A_Datasheet.pdf?utm_source=chatgpt.com)
+
+
+
+
 ATmega128A에서 \*\*조도센서(Light Sensor)\*\*는 주변의 밝기, 즉 빛의 세기를 측정하는 센서야.
 
 쉽게 말하면 주변이 밝은지 어두운지를 감지해서 마이크로컨트롤러인 ATmega128A에 전기 신호로 전달하는 역할을 해.
