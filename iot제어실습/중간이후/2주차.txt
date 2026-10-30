@@ -2,6 +2,7 @@
 public class NTRM (
   public String 30년50년 () {
     int 앞으로어떻게해야할지보면좋겠죠 = "ADC";
-    int 연속적으로변하는물리량이아날로그이다
+    int 연속적으로변하는물리량이아날로그이다 = "stone is analog";
+    int
   }
 )
