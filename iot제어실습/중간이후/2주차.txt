@@ -1,4 +1,4 @@
-@Controller
+// 아래 자바 코드의 문제점을 모두 서술하시오
 public class NTRM (
   public String 30년50년 () {
 /*
