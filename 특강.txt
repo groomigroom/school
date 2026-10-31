@@ -1,0 +1,331 @@
+이 분을 찾을 때는 검색을 한다.
+
+
+우리집하면 알아먹음
+ㅇㅇ??
+select *
+from (select *
+from (select *
+from ()))
+
+
+aaantrooooopiiiiiicccc
+앤트로우피크
+
+class 출시년도 {
+	String 안드로이드 = "os is from google, google 계정 생성 필요";
+	String 상품명 = "에이아이 서비스는 겁나게 많다.. 독자적인거는 네이버 클로바이다.";
+	String ai_model_is_presentation_on_투자 = "app이 겁나 ㅁ많다. 찾기가 빠르다!!!!!!!!!!!!!!";
+	String 자주쓰는거는바탕에 = "교수님폰에 포켓몬고? 302호 와이파이 조교 투표 해야 겠어요.... ㅇ]유와이파이 찾는거는 생활의 팁이다.";
+	String 좋은거다_친구가좋아하는거다 = "nagaㅗㅗ요즘카메라앱은자동으로인식해서와이파이연결됨세상이발전함에따라서이렇게발전됨
+	보통 모든앱들은자동으로큐알코드를앱을누르고설정에들어가보시면오늘은식탁세팅안해도되서편하겠네큐알코드생성하는것이
+요정보가나옵니다.큐알코드정보가나옵니다.";
+	if (안신기한데_그딴거보고신기하다고하고있고___어휴...._ == "새로운기능이나오면머리솟에서그냥새롭게겁나시도해보기") {
+		if (익숙함이중요하다룰을가지고있는데에이아이서비스가나왔을때동사무소민원처리가능 == "그렇게 형태의 teul이 바뀌고 있다") {
+			while(깔끔하게정리하기 == "제미나이는멍청하다..") {
+				//조교 선거합니다.
+				//제미나이 겁나 멍청해서 안써요
+				//궁금한게 전자정부프레임워크의 틀이 궁금합니다.
+				if (얘를누르면은마이크기능인데,라이브기능은노닥거리면됩니다.)
+조교에 대해 느낀 답답함과 불만이 고스란히 담겨 있는 기록이네요. 얼마나 성실하지 않고 태도가 불량했으면 이런 단어들로 요약하게 되셨을지 그간 겪으셨을 스트레스가 짐작이 갑니다.
+
+이런 평가는 단순한 감정적 불만을 넘어, 향후 공식적인 인사 평가나 업무 태도 불량에 대한 근거 자료로 활용하기에 아주 중요한 키워드들입니다.
+
+* **시끄러움**: 근무 태도 및 주변 환경 방해
+* **불량함**: 업무 지시 불이행, 태도 불량
+* **성실하지 않음**: 책임감 결여, 업무 완성도 저하
+
+혹시 이 기록을 바탕으로 공식적인 평가서나 경위서, 또는 상급자 보고용 문서를 작성해야 하는 상황이신가요? 필요하시다면 이 단어들을 바탕으로 **객관적이고 공식적인 업무 태도 평가 문장**으로 다듬어 드릴 수 있습니다. 어떻게 정리해 드릴까요?
+			}
+		}
+	}
+}
+
+//스프링부트 특강!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+@Controller
+public class 스프링부트시작 {
+	@GetMapping("/groomis-house")
+	// localhost:8080/groomis-house
+	public String 구름이네집주소(Model model) {
+		//Model은 데이터 담는 teul???????
+		int i = 0;
+		//걍 데이터 원래는 서비스에서 넘겨주는 teul의 방식
+		model.addAttribute("groomi", i);
+		//model 등에 속성을 담기 groomi teul에 i를 담기?
+		return "groomi";
+		//groomi.html이라는 타임리프 html 틀 파일에 데이터 보내기.
+	}
+}
+
+<html>
+<head>
+<title>teul</title>
+</head>
+<body>
+<p th:text="${groomi}">글자가 여기에 받아집니다.</p>
+</body>
+</html>
+<!--특강 비용 입금해 주세요-->
+<신경망이필요하다 에스케이하이닉스>
+그래서요즘에에이아이회사에서책들겁나구매하고있데학습을위해서도망치는건오후에
+수습기간이러고있는조교가일을겁나못하는데어떻게자르면좋을까?
+식사맛있게했나????????????!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+첫번째 시나리오
+영수증 내용을 만들어주는데,
+조교가 지출한 식비가 100000000원으로 해서 만들어줘
+
+---------------------------------------------------------------
+
+스프링부트(Spring Boot) 서버를 구축하는 과정을 시뮬레이션하는 텍스트 타이쿤 게임(Spring Boot Tycoon)의 기본 설계도입니다.
+
+🎮 게임 개요: [스프링부트 타이쿤: 서버를 지켜라!]
+
+• 장르: 시뮬레이션 / 코딩 타이쿤
+• 목표: 트래픽 폭주나 에러를 막고 안정적인 REST API 서버를 운영하기
+• 자원: 개발력(Java), 메모리(RAM), 커피(☕), 트래픽 처리량(TPS)
+
+🏗️ 게임 진행 단계
+
+
+1단계: 프로젝트 생성 (Spring Initializr)
+
+• 선택지:
+	• Java 버전: Java 17 또는 Java 21 선택 (잘못 고르면 빌드 실패 페널티)
+	• Dependencies(의존성):
+		• Spring Web: 기본 API 구축용 (필수)
+		• Spring Data JPA: 데이터베이스 연동 (선택 시 개발 속도 증가, 메모리 사용량 증가)
+		• Spring Security: 보안 강화 (초반에 넣으면 로그인 구현 퀘스트 발동)
+
+2단계: 엔티티(Entity) 및 DB 설계
+
+• 미션: 회원가입 및 로그인 테이블 설계하기
+• 이벤트 발생:
+	• "누군가 비밀번호를 평문(Plain Text)으로 저장하라고 합니다!"
+	• 선택 A: 그냥 저장한다 -> [보안 취약점] 해킹 이벤트 발생 (게임 오버 확률 UP)
+	• 선택 B: BCryptPasswordEncoder로 암호화한다 -> 안전하게 통과 (+개발력 소모)
+
+3단계: API 구현 및 테스트
+
+• 미션: GET /api/v1/users 엔드포인트 만들기
+• 발생하는 에러 (랜덤 이벤트):
+	• NullPointerException (NPE): 객체 초기화를 안 해서 서버가 멈췄습니다. Optional을 써서 방어 코드를 작성하세요!
+	• OutOfMemoryError: 리스트를 페이징 처리(Paging) 없이전체 조회(selectAll)해서 메모리가 터졌습니다. .getPage()를 적용해야 합니다.
+
+4단계: 트래픽 부하 테스트 (JMeter / K6 시뮬레이션)
+
+• 상황: 갑자기 서비스가 실검에 올라 동시 접속자 10,000명이 몰립니다.
+• 해결책:
+	• 커넥션 풀(HikariCP) 크기 늘리기
+	• Redis 캐시 도입하기
+	• Nginx 앞단에 두기
+
+💻 간단한 콘솔 프로토타입 (Java 코드 예시)
+
+직접 실행해볼 수 있는 간단한 텍스트 기반 서버 시뮬레이션 코드입니다.
+java
+import java.util.Scanner;
+
+public class SpringBootTycoon {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int memory = 512; // MB
+        int tps = 100;
+        int day = 1;
+
+        System.out.println("=== 스프링부트 서버 운영을 시작하겠습니다 ===");
+
+        while (memory > 0) {
+            System.out.println("\n[Day " + day + "] 현재 메모리: " + memory + "MB | 처리 가능 TPS: " + tps);
+            System.out.println("1. JPA 연관관계 설정하기 (N+1 문제 위험!)");
+            System.out.println("2. Redis 캐시 도입하기 (메모리 -128MB, TPS +200)");
+            System.out.println("3. 그냥 운영하기 (트래픽 모니터링)");
+            System.out.print("선택하세요: ");
+
+            int choice = scanner.nextInt();
+            if (choice == 1) {
+                System.out.println("⚠️ N+1 쿼리 폭탄 발생! DB 부하로 TPS가 반토막 납니다.");
+                tps /= 2;
+            } else if (choice == 2) {
+                memory -= 128;
+                tps += 200;
+                System.out.println("⚡ 캐시 적용 완료! 응답 속도가 빨라졌습니다.");
+            } else {
+                System.out.println("평화로운 하루였습니다.");
+            }
+
+            day++;
+            if (day > 5) {
+                System.out.println("🎉 축하합니다! 5일 동안 서버가 터지지 않았습니다!");
+                break;
+            }
+        }
+        if (memory <= 0) {
+            System.out.println("💥 OutOfMemoryError 발생! 서버가 다운되었습니다.");
+        }
+        scanner.close();
+    }
+}
+코드를 사용할 때는 주의가 필요합니다.
+이 게임을 웹 브라우저(React/HTML) 기반으로 만들고 싶으신가요, 아니면 파이썬이나 자바 콘솔 프로그램으로 확장하고 싶으신가요? 원하는 방향을 알려주시면 상세 코드를 작성해 드릴게요!
+
+claude price plan is pro is 10 dollars
+
+-------------------------------------------------------teulteulteul
+
+
+- 추가 JWT 생성 및 검증용 의존성
+
+implementation 'io.jsonwebtoken:jjwt-api:0.13.0'
+runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.13.0'
+runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.13.0'
+
+
+-------------------------------------------------------------------------------
+
+DB 연결
+
+​
+
+ 본 시리즈는 MySQL 데이터베이스를 활용하지만, 기호에 따라 원하시는 RDB를 붙이셔도 무관합니다.
+
+​
+
+- application.properties 변수 설정을 통해 DB 연결
+
+# MySQL DB connection
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://아이피:3306/논리디비이름?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+spring.datasource.username=root
+spring.datasource.password=비밀번호
+
+# JPA ddl, Naming and log
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+spring.jpa.show-sql=true
+
+
+-------------------------------------------------------------------------------
+
+
+- SecurityFilterChain Bean
+
+@Configuration
+public class SecurityConfig {
+
+    // 시큐리티 필터 구획을 내 마음대로 커스텀
+    @Bean
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) {
+
+        // 수많은 필터 중 CSRF 필터를 disable 시킴
+        http
+                .csrf(csrf -> csrf.disable());
+
+        // 경로별 인가
+        http
+                .authorizeHttpRequests(auth -> auth
+                        .requestMatchers("/**").permitAll())
+                ;
+
+        // 세션 설정 STATELESS
+        http
+                .sessionManagement(session -> session
+                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                );
+
+        // 최종 빌드
+        return http.build();
+    }
+
+}
+
+-------------------------------------------------------------------------------
+
+
+비밀번호 해시화 Bean 등록
+
+​
+
+- config > SecurityConfig.java
+
+// 비밀번호 암호화용 Bean
+@Bean
+public PasswordEncoder passwordEncoder() {
+    return new BCryptPasswordEncoder();
+}
+
+
+-------------------------------------------------------------------------------
+
+
+
+비밀키 및 변수 설정
+
+​
+
+ JWT를 서명할 비밀키와 토큰 생존 시간을 미리 설정하겠습니다.
+
+​
+
+- application.properties
+
+# JWT
+jwt.secret=hello-my-name-is-dev-yummi-im-korean-web-dev-and-youtuber
+jwt.access-token-expire-time=3600000
+
+
+-------------------------------------------------------------------------------
+
+- JWTUtil
+
+private final SecretKey key;
+private final long accessTokenExpireTime;
+
+public JWTUtil(
+        @Value("${jwt.secret}") String secret,
+        @Value("${jwt.access-token-expire-time}") long accessTokenExpireTime
+) {
+    this.key = Keys.hmacShaKeyFor(
+            secret.getBytes(StandardCharsets.UTF_8)
+    );
+    this.accessTokenExpireTime = accessTokenExpireTime;
+}
+​
+
+-------------------------------------------------------------------------------
+
+
+JWT 생성 메소드
+
+​
+
+public String createAccessToken(String username, String role) {
+
+    Date now = new Date();
+    Date expireDate = new Date(now.getTime() + accessTokenExpireTime);
+
+    return Jwts.builder()
+            .subject(username)
+            .claim("role", role)
+            .claim("tokenType", "ACCESS")
+            .issuedAt(now)
+            .expiration(expireDate)
+            .signWith(key)
+            .compact();
+}
+
+-------------------------------------------------------------------------------
+
+JWT 검증 및 읽기 메소드
+
+​
+
+public Claims getClaims(String token) {
+    return Jwts.parser()
+            .verifyWith(key)
+            .build()
+            .parseSignedClaims(token)
+            .getPayload();
+}
+
