@@ -25,5 +25,6 @@ class {
     int 세탁하기위해서는행구고탈수하는기능등등이필요하다 = 1;
     int 가심비 = 1;
     int omissionerror는이불을안갠거 = 1;
+    int command에러는움직일수없어서생긴에러이다 = 1;
   }
 }
