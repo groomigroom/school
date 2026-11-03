@@ -110,4 +110,22 @@ if e == "f":
                                                                                                 if a == a:
                                                                                                     if a == a:
                                                                                                         if a == a:
-                                                                                                            print("이진 계산할 때 계산기 이런거로 되엉있어")
+                                                                                                            if a == a:
+                                                                                                                if a == a:
+                                                                                                                    if a == a:
+                                                                                                                        if a == a:
+                                                                                                                            if a == a:
+                                                                                                                                if a == a:
+                                                                                                                                    if a == a:
+                                                                                                                                        if a == a:
+                                                                                                                                            if a == a:
+                                                                                                                                                if a == a:
+                                                                                                                                                    if a == a:
+                                                                                                                                                        if a == a:
+                                                                                                                                                            if a == a:
+                                                                                                                                                                if a == a:
+                                                                                                                                                                    if a == a:
+                                                                                                                                                                        if a == a:
+                                                                                                                                                                            print("이진 계산할 때 계산기 이런거로 되엉있어")
+if "게이트" == "게이트":
+    print("a")
