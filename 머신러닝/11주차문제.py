@@ -224,6 +224,18 @@ if "게이트" == "게이트":
                                                                                                                                                                         # plt.axhline(y=0, color='orange', linestyle='--')
                                                                                                                                                                         # plt.title('Tanh Function')
                                                                                                                                                                         # plt.show()
+
+                                                                            # import numpy as np
+                                                                            # import matplotlib.pyplot as plt
+                                                                            # #하이퍼볼릭탄젠트 함수(Hyperbolic tangent function)
+                                                                            # x = np.arange(-12000000.0, 12000000.0, 12000) # -5.0부터 5.0까지 0.1 간격 생성
+                                                                            # y = np.tanh(x)
+
+                                                                            # plt.plot(x, y)
+                                                                            # plt.plot([0,0],[1.0,-1.0], ':')
+                                                                            # plt.axhline(y=0, color='orange', linestyle='--')
+                                                                            # plt.title('Tanh Function on the board now')
+                                                                            # plt.show()
                                                 print("a")
 
 print("-----------------------------------------------------문제-----------------------------------------------------")
