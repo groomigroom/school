@@ -137,7 +137,21 @@ if "게이트" == "게이트":
                     weight 가중치를 구하는게
                     인공지능이다.
                     weight에 들어가서 값이 나오고 출력까지 나오게되는거죠. 우리는 신경망을 현재 앞으로만 진행되게 그렸는데,
-                    나중에 xor 문제에서도 나오는게 있었고, FFNN은 
+                    나중에 xor 문제에서도 나오는게 있었고, FFNN은 FFNN은 피드포워드 신경망(Feed-Forward Neural Network)의 
+                    약자입니다. 주요 특징
+
+• 단방향 정보 흐름: 데이터가 입력층(Input Layer)에서 은닉층(Hidden Layer)을 거쳐 출력층(Output Layer)으로 오직 한 방향(앞쪽)으로만 흘러갑니다. [1] (https://wikidocs.net/176148), [2] (https://itwiki.kr/w/%ED%94%BC%EB%93%9C%ED%8F%AC%EC%9B%8C%EB%93%9C_%EC%8B%A0%EA%B2%BD%EB%A7%9D)
+• 순환(Loop) 없음: 피드백 연결이나 순환 구조가 없어, 과거의 데이터가 현재 연산에 직접적인 영향을 주지 않습니다. [1] (https://itwiki.kr/w/%ED%94%BC%EB%93%9C%ED%8F%AC%EC%9B%8C%EB%93%9C_%EC%8B%A0%EA%B2%BD%EB%A7%9D)
+• 기본 구조: 다층 퍼셉트론(MLP, Multi-Layer Perceptron)을 포함하는 인공 신경망(ANN)의 가장 기초적이고 단순한 형태입니다. [1] (https://meaningful96.github.io/deeplearning/pytorch1-FFNN/), [2] (https://wikidocs.net/176148)
+
+한계점
+
+• 시간이 흐름에 따라 변화하는 데이터(시계열 데이터 등)의 연속적인 흐름이나 순서 정보를 처리하는 데는 취약합니다. (이를 보완하기 위해 순환 신경망인 RNN 등이 사용됩니다.) [1] (https://wikidocs.net/176148)
+더 자세히 알고 싶은 부분이 있다면 말씀해 주세요:
+• 트랜스포머(Transformer) 내의 포지션-와이즈 FFNN 역할
+• RNN이나 CNN 같은 다른 신경망과의 차이점
+                    RNN은 은닝층의 출력값을 출력층으로도 값을 보내지만 동시에 은닉층의 출력값이 다시 은닉층의 입력으로 사용됨.
+
                     """
 
     else:
