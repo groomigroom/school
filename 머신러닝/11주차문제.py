@@ -253,6 +253,19 @@ if "게이트" == "게이트":
                                                                             # plt.axhline(y=0, color='orange', linestyle='--')
                                                                             # plt.title('Tanh Function on the board now')
                                                                             # plt.show()
+                                                                                                                            # import numpy as np
+                                                                                                                            # import matplotlib.pyplot as plt
+                                                                                                                            # #렐루 함수
+                                                                                                                            # def relu(x):
+                                                                                                                            #     return np.maximum(0, x)
+
+                                                                                                                            # x = np.arange(-5.0, 5.0, 0.1)
+                                                                                                                            # y = relu(x)
+
+                                                                                                                            # plt.plot(x, y)
+                                                                                                                            # plt.plot([0,0],[5.0,0.0], ':')
+                                                                                                                            # plt.title('Relu Function')
+                                                                                                                            # plt.show()
                                                 if "리키 렐루까지는 있을거에요 아마도" == "리키 렐루까지는 있을거에요 아마도" or "tanh나 시그모이드가 문제가 있어서" == "relu 함수 등등이 나온다.":
                                                     print("a")
 
