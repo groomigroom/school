@@ -183,5 +183,16 @@ if "게이트" == "게이트":
                                 # plt.title('Step Function')
                                 # plt.plot(x,y)
                                 # plt.show()
+
+                                # 계단함수 변형 내용
+                                # import numpy as np
+                                # import matplotlib.pyplot as plt
+                                # def step(x):
+                                #     return np.array(x > 0, dtype=np.int64)
+                                # x = np.arange(-5.0, 222.0, 0.8) # -5.0부터 5.0까지 0.1 간격 생성
+                                # y = step(x)
+                                # plt.title('funny and santtet is machine learning time')
+                                # plt.plot(x,y)
+                                # plt.show()
                             
                                 print("a")
