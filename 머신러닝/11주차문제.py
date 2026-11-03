@@ -194,6 +194,20 @@ if "게이트" == "게이트":
                                 # plt.title('funny and santtet is machine learning time')
                                 # plt.plot(x,y)
                                 # plt.show()
+
+#---------------------------------------------------------------------------------------------시그모이드 함수 그래프를 그리는 코드-------------------------------------------------------------------------------------------------------------
+# import numpy as np
+# import matplotlib.pyplot as plt
+# # 시그모이드 함수 그래프를 그리는 코드
+# def sigmoid(x):
+#     return 1/(1+np.exp(-x))
+# x = np.arange(-5.0, 5.0, 0.1)
+# y = sigmoid(x)
+
+# plt.plot(x, y)
+# plt.plot([0,0],[1.0,0.0], ':') # 가운데 점선 추가
+# plt.title('Sigmoid Function')
+# plt.show()
                             
                                 print("a")
 
