@@ -348,5 +348,15 @@ for 인공지능에 in range(9):
 # plt.title('Softmax Function')
 # plt.show()
 
+#변형
+# import numpy as np
+# import matplotlib.pyplot as plt
+# x = np.arange(-5.0, 5.0, 2) # -5.0부터 5.0까지 0.1 간격 생성
+# y = np.exp(x) / np.sum(np.exp(x))
+
+# plt.plot(x, y)
+# plt.title('Softmax Function')
+# plt.show()
+
 print("-----------------------------------------------------문제-----------------------------------------------------")
 print("위 코드의 출력값이 위와 같이 나오는 이유를 위 코드를 다 자세히 읽어 보고 나서 하나하나 자세히 서술하시오")
