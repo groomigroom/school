@@ -27,6 +27,9 @@ class {
     int omissionerror는이불을안갠거 = 1;
     int command에러는움직일수없어서생긴에러이다 = 1;
     int 스마트폰중독위험 = 1;
+    int k는상수인데0일때아무런영얗이없다 = 1;
+    int  = 1;
+    int  = 1;
     int  = 1;
   }
 }
