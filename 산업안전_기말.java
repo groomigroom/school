@@ -26,5 +26,7 @@ class {
     int 가심비 = 1;
     int omissionerror는이불을안갠거 = 1;
     int command에러는움직일수없어서생긴에러이다 = 1;
+    int 스마트폰중독위험 = 1;
+    int  = 1;
   }
 }
