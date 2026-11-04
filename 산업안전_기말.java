@@ -31,7 +31,7 @@ class {
     int 집중도드립 = 1;
     int 공동작업은서로발생하기가쉽다. = 1;
     int 사람의장시간감시는어렵다 = 1;
-    int  = 1;
+    int failsafe = 1;
     int  = 1;
     int  = 1;
     int  = 1;
