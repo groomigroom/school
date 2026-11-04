@@ -14,7 +14,7 @@ class {
     int  = 0;
     int  = 0;
     int  = 0;
-    int  = 0;
+    int 위험과운전분석기법 = 0;
     int 사고예상질문분석기법 = 0;
     int wkrdj작업자실수분석기법 = 0;
     int dnlgja위험성평가기법체크리스트기법 = 0;
