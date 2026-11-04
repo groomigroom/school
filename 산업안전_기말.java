@@ -5,6 +5,10 @@ class {
     int  = 0;
     int  = 0;
     int  = 0;
+    int  = 0;
+    int  = 0;
+    int  = 0;
+    int 위험성평가는 = 0;
     int 시퀀스제어피드백제어공정제어 = 0;
     int failpassive = 0;
     int failactive = 0;
