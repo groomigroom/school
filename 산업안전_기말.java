@@ -5,7 +5,7 @@ class {
     int  = 0;
     int  = 0;
     int  = 0;
-    int  = 0;
+    int 시퀀스제어피드백제어공정제어 = 0;
     int failpassive = 0;
     int failactive = 0;
     int 담당_작업자가_직접_잠금장치_및_표지판_해제 = 0;
