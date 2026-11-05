@@ -313,5 +313,11 @@ public class GroomiGroom {
 
 }
 
-
+/*
+읽기 전용 변수는 아래와 같다.
+private final String name;
+하면은 Setter는 불가능함.
+Getter는 가능.
+생성자로 값 넣는 것은 1번 가능.
+ */
 
