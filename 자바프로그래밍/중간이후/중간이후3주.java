@@ -1,5 +1,7 @@
 package groomiPackage;
 
+//import school.Student;
+
 class 퍼블릭 {
 	//public은 가장 개방적인 접근 권한을 제공하는 접근 제한자
 	//main 메서드와 main() 및 public을 포함하는 클래스도 public
@@ -214,6 +216,68 @@ public class Donut {
 
  */
 
+//#########################################################################################################
+
+//Student.java
+/*
+package school;
+
+public class Student {
+	String school;
+	private String studentName;
+	private int score;
+	private int grade;
+	public Student(String studentName, int score, int grade) {
+		this.school = "광주 폴리텍 대학교";
+		this.studentName = studentName;
+		this.score = score;
+		this.grade = grade;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public int getScore() {
+		return score;
+	}
+	public int getGrade() {
+		return grade;
+	}
+	public void setName(String studentName) {
+		this.studentName = studentName;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+}
+
+ */
+//Main.java
+/*
+package school;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student stu1 = new Student("구름이", 100, 1);
+		System.out.println("학교: " + stu1.school);
+		System.out.println("학생: " + stu1.getStudentName());
+		System.out.println("점수: " + stu1.getScore());
+		System.out.println("등급: " + stu1.getGrade());
+	}
+
+}
+
+학교: 광주 폴리텍 대학교
+학생: 구름이
+점수: 100
+등급: 1
+
+*/
+
 public class GroomiGroom {
 
 	public static void main(String[] args) {
@@ -236,3 +300,6 @@ public class GroomiGroom {
 	}
 
 }
+
+
+
