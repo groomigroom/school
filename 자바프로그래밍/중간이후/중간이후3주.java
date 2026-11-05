@@ -319,5 +319,9 @@ private final String name;
 하면은 Setter는 불가능함.
 Getter는 가능.
 생성자로 값 넣는 것은 1번 가능.
+
+static 멤버
+static 은 클래스 전체에서 공유하는 변수나 메서드를 만들 때 사용하는 예약어
+static으로 선언된 변수나 메서드는 객체 생성하지 않고도 클래스 이름으로 접근 가능함.
  */
 
