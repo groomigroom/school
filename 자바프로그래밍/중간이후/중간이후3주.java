@@ -267,6 +267,13 @@ public class Main {
 		System.out.println("학생: " + stu1.getStudentName());
 		System.out.println("점수: " + stu1.getScore());
 		System.out.println("등급: " + stu1.getGrade());
+		System.out.println();
+		stu1.setName("김구름");
+		stu1.setScore(1000);
+		stu1.setGrade(0);
+		System.out.println("학생: " + stu1.getStudentName());
+		System.out.println("점수: " + stu1.getScore());
+		System.out.println("등급: " + stu1.getGrade());
 	}
 
 }
@@ -277,6 +284,10 @@ public class Main {
 등급: 1
 
 */
+
+class NewSchoolOnTheHighSchoolUniversity {
+	private String schoolNameShowBlock;
+}
 
 public class GroomiGroom {
 
