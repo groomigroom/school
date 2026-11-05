@@ -308,6 +308,7 @@ public class GroomiGroom {
 		System.out.println(dDnount.getName());
 		System.out.println(dDnount.getPrice());
 		dDnount.setPrice(-2000);
+		System.out.println("위 내용을 바탕으로 열심히 즐겁고 신나게 학생 100명을 관리하는 프로그램을 만들어 주세요");
 	}
 
 }
