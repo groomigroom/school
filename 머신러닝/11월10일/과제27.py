@@ -12,6 +12,7 @@ class 파이토치텐서플로우:
     def gjkjskdgjkdsjgkdsjgkdskjgdsgkdsjgksjdgkdsjgksjdkgjdsg():
         print("에포크가 총 학습을 반복할 수인데 원리를 서술하시오")
         print("batch 수가 데이터를 몇개 넣는 것의 수인 이유?")
+        print("딥러닝에서 learning rate를 쓰는 이유?@@@@")
 
 
 
