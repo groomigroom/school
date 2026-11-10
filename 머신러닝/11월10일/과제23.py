@@ -3,3 +3,7 @@
 #..................................................................................
 ########################################################
 ##############
+groomiisontheboardandrunninginhouseandshownow = """
+ddd
+"""
+print(groomiisontheboardandrunninginhouseandshownow)
