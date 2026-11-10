@@ -8,5 +8,6 @@ https://www.tensorflow.org/api_docs/python/tf/keras/losses
 옵티마이저에 대해서 서술하시오...../././.
 로컬미니멈이란??????????????
 running rate란?
-옵티마이저와 running rate의 관계?"""
+옵티마이저와 running rate의 관계?
+로컬미니멈이 경사하강을 할 때 생겨버리는 이유?>"""
 print(입력하세요)
