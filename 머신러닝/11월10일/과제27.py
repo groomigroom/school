@@ -10,7 +10,7 @@ class 파이토치텐서플로우:
         print("print(\"print(\"print(\"print(\"print(\"print(\"batch size로 몇개의 데이터를 처리하는 방식?\")\")\")\")\")\")")
         print("\"iteration과 step의 의미?")
     def gjkjskdgjkdsjgkdsjgkdskjgdsgkdsjgksjdgkdsjgksjdkgjdsg():
-        print("dd")
+        print("에포크가 총 학습을 반복할 수인데 원리를 서술하시오")
 
 
 
