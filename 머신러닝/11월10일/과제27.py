@@ -21,7 +21,7 @@ class 파이토치텐서플로우:
         #
         #
         #
-        print("")
+        print("llm은 batch 사이즈가 큰 이유?")
 
 
 
