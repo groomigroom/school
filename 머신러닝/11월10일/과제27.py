@@ -25,7 +25,7 @@ class 파이토치텐서플로우:
         print("역전파(BackPropagation)에 대해서 이해하기 쉽게 서술하시오.")
         print("은닉층에 엑티베이션 함수가 들어가야 되는 이유?")
         print("w를 구하는게 어떤 모델에서든지 w가 손실값이 가장 적은 지점으로 업데이트하는 학습인 이유?")
-        print("")
+        print("아스트라라는 chat gpt 모델 이름의 뜻?")
         print("")
         print("")
         print("")
