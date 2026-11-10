@@ -28,7 +28,7 @@ class 파이토치텐서플로우:
         print("아스트라라는 chat gpt 모델 이름의 뜻?")
         print("순전파에서 가중치값이 나온 이유?")
         print("체인룰이란?")
-        print("")
+        print("순전파는 실제값이 나오는 이유?")
         print("")
         print("")
 
