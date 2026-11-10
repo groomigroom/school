@@ -21,6 +21,6 @@ model.add(Dense(8, activation='relu'))
 model.add(Dense(3, activation='softmax'))
 
 위 코드의 입출력을 그림으로 그리시오
-원핫백터란?
+원핫백터란? #확률상 맞는거 빼고 다 없애버리는거?
 """
 print(groomiiscute)
