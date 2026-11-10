@@ -8,7 +8,7 @@ class 파이토치텐서플로우:
         print("에포크가 학습 몇번시켰냐는 의미인데 이에 대해서 설명하시오.")
         print("batch size가 기본으로 1인 이유?")
         print("print(\"print(\"print(\"print(\"print(\"print(\"batch size로 몇개의 데이터를 처리하는 방식?\")\")\")\")\")\")")
-
+        print("\"iteration과 step의 의미?")
 
 
 
