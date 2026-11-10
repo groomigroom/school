@@ -8,6 +8,7 @@ class twelve:
     def groomi3():
         print("순전파란? 뭐다? 앞으로 진행하면서 쓰는건데 자세히 서술하시오")
         print("순전파에서 안되는게 뭐냐?") #xor의 훈련이 안되는데 이거를 자세히 서술하시오
+        print("순전파로 보통 연산을 하는 이유?") #출력층 방향으로만 예측이 됨.
 
 groomii = twelve
 groomii.groomi()
