@@ -11,5 +11,6 @@ groomiisontheboardandrunninginhouseandshownow = """
 10자 이상으로 서술하시오
 
 w의 행렬을 계산하는법?
+#은닉층의 입출력만 보면된다...????????
 """
 print(groomiisontheboardandrunninginhouseandshownow)
