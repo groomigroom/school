@@ -9,6 +9,8 @@ class 파이토치텐서플로우:
         print("batch size가 기본으로 1인 이유?")
         print("print(\"print(\"print(\"print(\"print(\"print(\"batch size로 몇개의 데이터를 처리하는 방식?\")\")\")\")\")\")")
         print("\"iteration과 step의 의미?")
+    def gjkjskdgjkdsjgkdsjgkdskjgdsgkdsjgksjdgkdsjgksjdkgjdsg():
+        print("dd")
 
 
 
@@ -20,3 +22,4 @@ class 파이토치텐서플로우:
 
 공부 = 파이토치텐서플로우
 공부.러닝레이트가지나면()
+공부.gjkjskdgjkdsjgkdsjgkdskjgdsgkdsjgksjdgkdsjgksjdkgjdsg()
