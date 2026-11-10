@@ -22,6 +22,7 @@ class 파이토치텐서플로우:
         #
         #
         print("llm은 batch 사이즈가 큰 이유?")
+        print("역전파(BackPropagation)에 대해서 이해하기 쉽게 서술하시오.")
 
 
 
