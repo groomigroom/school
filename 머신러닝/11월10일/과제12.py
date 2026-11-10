@@ -12,6 +12,10 @@ class twelve:
         print("llm 모델에서 파라미터 개수의 의미?")
         print("hugging face는?")
         print("인공지능에 적합하게 수정된 플로팅 포인트란??")
+        print("행렬곱은 어떻게 계산되는가?\
+        \n소프트맥스를 이용한 딥러닝 풀이?\
+        \n딥러닝에서 함수가 중요한 이유?\
+        \nDense하고 같은 말은")
 
 groomii = twelve
 groomii.groomi()
