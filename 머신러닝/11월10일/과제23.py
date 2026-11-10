@@ -4,6 +4,10 @@
 ########################################################
 ##############
 groomiisontheboardandrunninginhouseandshownow = """
-ddd
+입력층에서부터 출력층으로까지의 연산에 대해서 서술하시오
+
+입력층이 출력층에 미치는 영향을 서술하시오
+
+10자 이상으로 서술하시오
 """
 print(groomiisontheboardandrunninginhouseandshownow)
