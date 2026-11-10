@@ -9,5 +9,7 @@ groomiisontheboardandrunninginhouseandshownow = """
 입력층이 출력층에 미치는 영향을 서술하시오
 
 10자 이상으로 서술하시오
+
+w의 행렬을 계산하는법?
 """
 print(groomiisontheboardandrunninginhouseandshownow)
