@@ -12,5 +12,6 @@ groomiisontheboardandrunninginhouseandshownow = """
 
 w의 행렬을 계산하는법?
 #은닉층의 입출력만 보면된다...????????
+w의 행렬은 입출력 곱하기?
 """
 print(groomiisontheboardandrunninginhouseandshownow)
