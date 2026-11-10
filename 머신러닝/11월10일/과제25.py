@@ -3,5 +3,6 @@
 loss를 최소화 시키는 이유?
 이에 따라서 w값을 변경시키는 이유?
 카테고리칼 크로스 엔트로피는? 뭔가?
-"""
+https://www.tensorflow.org/api_docs/python/tf/keras/losses
+위 링크에서 손실함수들을 자세히 보고 소감문을 작성하시오"""
 print(입력하세요)
