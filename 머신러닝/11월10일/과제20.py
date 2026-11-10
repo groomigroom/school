@@ -21,6 +21,6 @@ model.add(Dense(8, activation='relu'))
 model.add(Dense(3, activation='softmax'))
 
 위 코드의 입출력을 그림으로 그리시오
-
+원핫백터란?
 """
 print(groomiiscute)
