@@ -15,7 +15,7 @@ class twelve:
         print("행렬곱은 어떻게 계산되는가?\
         \n소프트맥스를 이용한 딥러닝 풀이?\
         \n딥러닝에서 함수가 중요한 이유?\
-        \nDense하고 같은 말은")
+        \nDense하고 같은 말은 fully connected라는데 어떤 의미?") #네트워크를 만들어줌
 
 groomii = twelve
 groomii.groomi()
