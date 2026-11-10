@@ -12,5 +12,6 @@ running rate란?
 로컬미니멈이 경사하강을 할 때 생겨버리는 이유?>
 sgd를 요즘에 많이 쓰는 이유?
 sgd와 등고선의 관계?
-batch_size의 의미?"""
+batch_size의 의미?
+batch_size가 인공지능 모델 훈련에서의 의미?"""
 print(입력하세요)
