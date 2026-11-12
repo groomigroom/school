@@ -11,8 +11,23 @@
 <p>이 코드에 대해서 서술하시오.</p>
 <h1 id="groomiiiii">구름이 멍멍</h1>
 <script>
+    let count = 0;
     const groomiiiii = document.getElementById("groomiiiii");
-    groomiiiii.textContent = "구름이";
+    groomiiiii.addEventListener("click", function () {
+        if (count == 0) {
+            groomiiiii.textContent = "구름이";
+            groomiiiii.style.color = "#7587ea";
+            count = 1;
+        } else if (count == 1) {
+            groomiiiii.textContent = "구름이 머엉머엉";
+            groomiiiii.style.color = "#74a197";
+            count = 2;
+        } else if (count == 2) {
+            groomiiiii.textContent = "구름이 멍멍";
+            count = 0;
+        }
+    });
+
 </script>
 </body>
 </html>
