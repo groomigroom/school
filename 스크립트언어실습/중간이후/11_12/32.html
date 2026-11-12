@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<p>이 코드에 대해서 서술하시오.</p>
+<p></p>
+<p class="dddd"></p>
+<script>
+    let dayOfTheWeek = prompt("오늘의 요일은");
+    let workTime;
+    if (dayOfTheWeek == "월") {
+        workTime = 20;
+    } else if (dayOfTheWeek == "화") {
+        workTime = 19;
+    } else if (dayOfTheWeek == "수") {
+        workTime = 18;
+    } else if (dayOfTheWeek == "목") {
+        workTime = 17;
+    } else if (dayOfTheWeek == "금") {
+        workTime = 16;
+    } else if (dayOfTheWeek == "토") {
+        workTime = 15;
+    } else if (dayOfTheWeek == "일") {
+        workTime = 14;
+    } else {
+        workTime = 24;
+    }
+    document.write(`오늘은 ${workTime}시간 근무하셔야 합니다.`);
+</script>
+</body>
+</html>
