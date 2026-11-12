@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai is to children</title>
+</head>
+<body>
+<p>eval()이라는 자바스크립트 함수에 대해서 서술하시오</p>
+<p>parseInt() 자바스크립트 함수에 대해서 서술하시오.</p>
+<p>isNaN() 자바스크립트 함수에 대해서 서술하시오.</p>
+<script>
+   
+</script>
+</body>
+</html>
