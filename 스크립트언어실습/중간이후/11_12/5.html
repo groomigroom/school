@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai is to children</title>
+</head>
+<body>
+<script>
+    const 일 = 1;
+    const 이 = 2;
+    let n = Number(prompt("숫자 입력하기"));
+
+    let cnt = 0, hap = 0;
+    for (let i = 1; i <= n; i++) {
+        if (i % 3 == 1) {
+            hap += i;
+            document.write(`<div>${i} </div>`);
+        } else {
+            continue;
+        }
+    }
+    document.write(`<div>${hap}</div>`);
+</script>
+</body>
+</html>
