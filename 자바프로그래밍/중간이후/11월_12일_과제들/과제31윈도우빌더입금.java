@@ -21,6 +21,8 @@ public class BtnTest extends JFrame {
 	static boolean loginStatus = false;
 	private JButton btnNewButton_1;
 	private JButton btnNewButton_2;
+	private JTextField textField_1;
+	private JLabel lblLabel_1;
 
 	/**
 	 * Launch the application.
@@ -53,12 +55,12 @@ public class BtnTest extends JFrame {
 		JLabel lblLabel = new JLabel("입금해 주세요. 많이 입금해 주실수록 좋습니다.");
 		lblLabel.setFont(new Font("HY궁서B", Font.PLAIN, 12));
 		lblLabel.setForeground(new Color(0, 128, 128));
-		lblLabel.setBounds(87, 25, 272, 49);
+		lblLabel.setBounds(87, 10, 272, 49);
 		contentPane.add(lblLabel);
 		
 		textField = new JTextField();
 		textField.setFont(new Font("HY궁서B", Font.PLAIN, 12));
-		textField.setBounds(162, 87, 116, 21);
+		textField.setBounds(34, 87, 244, 21);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
@@ -71,6 +73,7 @@ public class BtnTest extends JFrame {
 				lblLabel.setText("돈이 입금되었습니다. 감사합니다.");
 				textField.setText(textField.getText() + "더 입금해 주세요");
 				System.out.println(lblLabel.getText());
+				lblLabel_1.setText("돈 주시면 칭찬해 드릴게요");
 			}
 		});
 		btnNewButton.setBounds(12, 122, 116, 23);
@@ -92,10 +95,24 @@ public class BtnTest extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				lblLabel.setText("돈 더 필요합니다");
 				textField.setText("더 주세요 제발요");
+				textField_1.setText("돈 주십시오");
+				lblLabel_1.setText("돈 주세요");
 			}
 		});
 		btnNewButton_2.setFont(new Font("HY궁서B", Font.BOLD, 12));
-		btnNewButton_2.setBounds(150, 122, 177, 23);
+		btnNewButton_2.setBounds(150, 122, 287, 23);
 		contentPane.add(btnNewButton_2);
+		
+		textField_1 = new JTextField();
+		textField_1.setFont(new Font("HY궁서B", Font.PLAIN, 12));
+		textField_1.setColumns(10);
+		textField_1.setBounds(321, 87, 116, 21);
+		contentPane.add(textField_1);
+		
+		lblLabel_1 = new JLabel("계좌 번호는 개인톡으로 드리겠습니다.");
+		lblLabel_1.setForeground(new Color(0, 128, 128));
+		lblLabel_1.setFont(new Font("HY궁서B", Font.PLAIN, 12));
+		lblLabel_1.setBounds(140, 47, 272, 32);
+		contentPane.add(lblLabel_1);
 	}
 }
