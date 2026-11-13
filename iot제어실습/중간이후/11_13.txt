@@ -11,3 +11,61 @@ TWI
 
 우리는
 USART 통신을 할거다
+
+
+/*
+ * November13.c
+ *
+ * Created: 2026-11-13 오후 2:12:08
+ * Author : user
+ */ 
+
+#define F_CPU 16000000
+#include <avr/io.h>
+#include <util/delay.h>
+#include <avr/interrupt.h>
+
+ISR(USART0_RX_vect) {
+	uint8_t data = UDR0;
+	if (data < 8) {
+		PORTA = 1 << data;
+	}
+}
+
+void sendByte(uint8_t byte) {
+	while((UCSR0A & 0x20) == 0x00);
+	UDR0 = byte;
+}
+
+int main(void)
+{
+    DDRA = 0xFF;
+	DDRE = 0xCF;
+	UBRR0H = 0x00;
+	UBRR0L = 25;
+	UCSR0A = 0x00;
+	UCSR0B = 0x98;
+	UCSR0C = 0x06;
+	sei();
+	uint8_t key;
+	uint8_t led = 0;
+    while (1) 
+    {
+		key = PINE & 0x30;
+		if (key == 0x20){
+			if(led != 7) {
+				led++;
+				sendByte(led);
+				_delay_ms(200);
+			}
+		} else if (key == 0x10) {
+			if (led != 0) {
+				led--;
+				sendByte(led);
+				_delay_ms(200);
+			}
+		}
+		
+    }
+}
+
