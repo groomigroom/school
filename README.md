@@ -1,7 +1,7 @@
 # school
 
 * 월 자바 스윙
-* 화 머신러닝 책
+* 화 머신러닝 책 https://wikidocs.net/46496
 * 수 정보보안기사
 * 목 kotlin
 * 금 rust
