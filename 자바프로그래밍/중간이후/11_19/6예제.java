@@ -36,6 +36,11 @@ public class ExceptionSet {
 			System.out.println("연산 오류 발생" + e.getMessage());
 		} catch(InputMismatchException e) {
 			System.out.println("정확한 입력값이 아닙니다." + e.getMessage());
+		} catch (IllegalArgumentException e) {
+			//IllegalArgumentException은 메서드에 부적절하거나 유효하지 않은 인수(Argument, 전달된 값)가 넘어왔을 때 발생하는 런타임 예외를 의미합니다. 
+			System.out.println("정확한 입력값이 아닙니다." + e.getMessage());
+		} finally {
+			System.out.println("계산 완료");
 		}
 		
 		
