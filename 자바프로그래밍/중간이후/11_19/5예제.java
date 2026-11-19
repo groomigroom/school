@@ -13,7 +13,11 @@ public class ExceptionClass {
 		} catch(ArithmeticException e) {
 			System.out.println("연산 오류 발생" + e.getMessage());
 		}
-		System.out.println("프로그램 종료");
+		for (int i = 0; i < 22; i++) {
+			System.out.println("프로그램 종료");
+		}
+		
+
 	}
 
 }
