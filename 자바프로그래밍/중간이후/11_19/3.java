@@ -10,7 +10,9 @@ public class Groomi {
 		float iii = ii;
 		double iiii = iii;
 		System.out.println(iiii + "의 값은");
-		int iiiii = 11;
+		int iiiii = (int)iii;
+		float iiiiii = iiiii;
+		System.out.println(iiiiii + "의 값이 왜 이러나");
 		
 
 	}
