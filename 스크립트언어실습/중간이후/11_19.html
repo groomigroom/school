@@ -30,56 +30,31 @@
         document.write("<br>" + groomi5)
         document.write("<br>" + groomi5.length + "의 값의 의미?")
         let degrees = new Array()
+        /*
         for (let i = 0; i < 6; i++) {
             degrees[i] = Number(prompt("온도 입력하기"))
         }
+        */
         let sum = 0
         for (let i = 0; i < degrees.length; i++) {
             sum += degrees[i]
         }
         document.write("<br>" + "평균 온도는 " + (sum/degrees.length) + "다" )
-    </script>
-</body>
-</html><!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
-    <style>
-        * {
-            background-color: antiquewhite;
-        }
-    </style>
-</head>
-<body>
-    <script>
-        document.write("new는 객체를 새로 만들어 주는 키워드인가?")
-        let today = new Date()
-        document.write("<br>" + today)
-        document.write("<br>왜 오늘 날짜가 뜨나?")
-        let groomis = ["bichon", "cute", "groomi"]
-        document.write("<br>" + groomis[2] + "의 값에 대해서 설명")
-        let s3 = new Array();
-        s3[0] = "구름이"
-        document.write("<br>" + s3[0] + "의 값에 대해서 설명")
-        s3[3] = "구름"
-        document.write("<br>" + s3[2] + "의 값에 대해서 설명")
-        let groomi4 = new Array("김", "구", "름")
-        document.write("<br>" + groomi4[2] + "의 값에 대해서 설명")
-        let groomi5 = ["구름1", "구름2", "구름3", "구름4", "구름5"]
-        document.write("<br>" + groomi5[1] + groomi5[0] + "의 값에 대해서 설명")
-        document.write("<br>" + groomi5)
-        document.write("<br>" + groomi5.length + "의 값의 의미?")
-        let degrees = new Array()
-        for (let i = 0; i < 6; i++) {
-            degrees[i] = parseFloat(prompt("온도 입력하기"))
-        }
-        let sum = 0
-        for (let i = 0; i < degrees.length; i++) {
-            sum += degrees[i]
-        }
-        document.write("<br>" + "평균 온도는 " + (sum/degrees.length) + "다" )
+        let a = ["김", "구", "름"]
+        let b = ["멍멍"]
+        let c
+        c = a.concat(b)
+        document.write("<br>" + c + "의 값의 의미?")
+        c = a.join("김구름")
+        document.write("<br>" + c + "의 값의 의미?")
+        c = a.reverse()
+        document.write("<br>" + c + "의 값의 의미?")
+        document.write("<br>" + a + "의 값의 의미?")
+        c = a.slice(1, 2)
+        document.write("<br>" + c + "의 값의 의미?")
+        c = a.sort()
+        document.write("<br>" + c + "의 값의 의미?")
+        document.write("<br>" + a + "의 값의 의미?")
     </script>
 </body>
 </html>
