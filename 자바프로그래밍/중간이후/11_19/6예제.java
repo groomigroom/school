@@ -31,6 +31,8 @@ public class ExceptionSet {
 				
 				double divide = (double)oneNumber / twoNumber;
 				System.out.println(oneNumber + " / " + twoNumber + " = " + divide);
+			} else {
+				throw new IllegalArgumentException("잘못된 연산자");
 			}
 		} catch(ArithmeticException e) {
 			System.out.println("연산 오류 발생" + e.getMessage());
