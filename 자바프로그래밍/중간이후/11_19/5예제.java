@@ -11,7 +11,9 @@ public class ExceptionClass {
 			System.out.println(result);
 			//이 코드가 오류가 뜨는 이유?
 		} catch(ArithmeticException e) {
-			System.out.println("연산 오류 발생" + e.getMessage());
+			for (int i = 0; i < 22; i++) {
+				System.out.println("연산 오류 발생" + e.getMessage());
+			}
 		}
 		for (int i = 0; i < 22; i++) {
 			System.out.println("프로그램 종료");
