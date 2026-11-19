@@ -29,6 +29,15 @@
         document.write("<br>" + groomi5[1] + groomi5[0] + "의 값에 대해서 설명")
         document.write("<br>" + groomi5)
         document.write("<br>" + groomi5.length + "의 값의 의미?")
+        let degrees = new Array()
+        for (let i = 0; i < 6; i++) {
+            degrees[i] = parseFloat(prompt("온도 입력하기"))
+        }
+        let sum = 0
+        for (let i = 0; i < degrees.length; i++) {
+            sum += degrees[i]
+        }
+        document.write("<br>" + "평균 온도는 " + (sum/degrees.length) + "다" )
     </script>
 </body>
 </html>
