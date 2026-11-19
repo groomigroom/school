@@ -10,6 +10,8 @@ public class Groomi {
 		float iii = ii;
 		double iiii = iii;
 		System.out.println(iiii + "의 값은");
+		int iiiii = 11;
+		
 
 	}
 
