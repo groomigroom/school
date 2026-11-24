@@ -8,7 +8,7 @@ train_text = "김구름 귀여운 멍멍이 깜찍한 산뜻한 날라다니는 
 tokenizer.fit_on_texts([train_text])
 
 # 정수 인코딩
-sub_text = "김구름 귀여운 멍멍이 산뜻한 강아지"
+sub_text = "김구름 귀여운 멍멍이 산뜻한 표정의 강아지"
 sequences = tokenizer.texts_to_sequences([sub_text])[0]
 
 print("정수 인코딩 : ",sequences)
