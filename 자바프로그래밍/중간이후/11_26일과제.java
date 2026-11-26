@@ -13,7 +13,7 @@ class Donut {
 		System.out.println("도넛 이름은 " + donutName + " - " + "가격은 " + donutPrice);
 	}
 	
-	public void buy() {
+	public void sellingUp() {
 		donutPrice += 30000;
 		System.out.println("도넛 이름은 " + donutName + " - " + "가격은 " + donutPrice + "입니다. 입금해 주세요");
 	}
@@ -30,7 +30,7 @@ public class MainHomeWork {
 		
 		donuts[0].show();
 		donuts[1].show();
-		donuts[1].buy();
+		donuts[1].sellingUp();
 		donuts[2].show();
 		
 		for (int i = 0; i < donuts.length; i++) {
