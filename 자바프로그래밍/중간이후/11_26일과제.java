@@ -1,5 +1,10 @@
 package homework;
 
+enum DonutSet {
+	SETONE, SETTWO, SETTHREE, SETFOUR, SETFIVE, SETSIX;
+}
+
+
 class Donut {
 	private String donutName;
 	private int donutPrice;
@@ -23,6 +28,12 @@ public class MainHomeWork {
 
 	public static void main(String[] args) {
 		//객체 배열이란 무엇인가?
+		
+		DonutSet set1 = DonutSet.SETTHREE;
+		
+		System.out.println(set1.name());
+		System.out.println(set1.ordinal());
+		
 		Donut[] donuts = new Donut[9];
 		donuts[0] = new Donut("구름모양 도넛", 2000);
 		donuts[1] = new Donut("단무지 도넛", 3000);
