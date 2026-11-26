@@ -33,7 +33,7 @@
 33. decorator 패턴이란?
 34. decorator 패턴의 적용 예시를 하나 설명하시오.
 35. toast1이라는 상위 클래스가 있었는데, topping을 추가하는 식으로 해서 decorator 패턴 예시를 만드시오.
-
+36. adapter 패턴이란?
 . 위 문제들 중에서 오타가 있나요?
 
 
