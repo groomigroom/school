@@ -12,6 +12,10 @@ class Donut {
 	public void show() {
 		System.out.println("도넛 이름은 " + donutName + " - " + "가격은 " + donutPrice);
 	}
+	
+	public void buy() {
+		System.out.println("도넛 이름은 " + donutName + " - " + "가격은 " + donutPrice + "입니다. 입금해 주세요");
+	}
 }
 
 public class MainHomeWork {
@@ -24,8 +28,12 @@ public class MainHomeWork {
 		donuts[2] = new Donut("단맛 도넛", 4000);
 		
 		donuts[0].show();
-		donuts[1].show();
+		donuts[1].buy();
 		donuts[2].show();
+		
+		for (int i = 0; i < donuts.length; i++) {
+			donuts[i].show();
+		}
 	}
 
 }
