@@ -23,11 +23,14 @@ public class MainHomeWork {
 
 	public static void main(String[] args) {
 		//객체 배열이란 무엇인가?
-		Donut[] donuts = new Donut[4];
+		Donut[] donuts = new Donut[7];
 		donuts[0] = new Donut("구름모양 도넛", 2000);
 		donuts[1] = new Donut("단무지 도넛", 3000);
 		donuts[2] = new Donut("단맛 도넛", 4000);
 		donuts[3] = new Donut("사은품 도넛", 5000);
+		donuts[4] = new Donut("민트초코 도넛", 77000);
+		donuts[5] = new Donut("얼음 도넛", 44000);
+		donuts[6] = new Donut("호떡 도넛", 1000);
 		
 		donuts[0].show();
 		donuts[1].show();
@@ -35,7 +38,10 @@ public class MainHomeWork {
 		donuts[2].show();
 		donuts[1].sellingUp();
 		donuts[3].show();
-		
+		donuts[4].show();
+		donuts[5].show();
+		donuts[6].show();
+		System.out.println();
 		for (int i = 0; i < donuts.length; i++) {
 			donuts[i].show();
 		}
