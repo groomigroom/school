@@ -23,15 +23,18 @@ public class MainHomeWork {
 
 	public static void main(String[] args) {
 		//객체 배열이란 무엇인가?
-		Donut[] donuts = new Donut[3];
+		Donut[] donuts = new Donut[4];
 		donuts[0] = new Donut("구름모양 도넛", 2000);
 		donuts[1] = new Donut("단무지 도넛", 3000);
 		donuts[2] = new Donut("단맛 도넛", 4000);
+		donuts[3] = new Donut("사은품 도넛", 5000);
 		
 		donuts[0].show();
 		donuts[1].show();
 		donuts[1].sellingUp();
 		donuts[2].show();
+		donuts[1].sellingUp();
+		donuts[3].show();
 		
 		for (int i = 0; i < donuts.length; i++) {
 			donuts[i].show();
