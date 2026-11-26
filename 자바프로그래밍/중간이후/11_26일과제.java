@@ -1,3 +1,5 @@
+//도넛들을 가격을 행사 등등으로 조정할 수 있게 아래 코드를 수정해 주세요 . 과제입니다.
+
 package homework;
 
 enum DonutSet {
