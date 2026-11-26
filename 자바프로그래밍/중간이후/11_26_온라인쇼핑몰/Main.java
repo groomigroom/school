@@ -6,6 +6,7 @@ public class Main {
 		System.out.println("<구름이네 애견용품 온라인 쇼핑몰>");
 		System.out.println();
 		System.out.println("상품 목록");
+		System.out.println("상품 번호\t상품명\t가격\t재고");
 		System.out.println("1.\t사료\t10000원\t100개");
 		System.out.println("2.\t간식\t4000원\t1100개");
 		System.out.println("3.\t간식2\t5000원\t1200개");
