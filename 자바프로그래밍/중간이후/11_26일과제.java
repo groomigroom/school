@@ -4,8 +4,11 @@ enum DonutSet {
 	SETONE, SETTWO, SETTHREE, SETFOUR, SETFIVE, SETSIX;
 }
 
-
 class Donut {
+	enum Day {
+		MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
+	}
+	
 	private String donutName;
 	private int donutPrice;
 	
