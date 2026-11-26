@@ -10,7 +10,7 @@ public class Main {
 		System.out.println("1.\t사료\t10000원\t100개");
 		System.out.println("2.\t간식\t4000원\t1100개");
 		System.out.println("3.\t간식2\t5000원\t1200개");
-		System.out.println("[상품 추가]\t[상품 수정]\t[제품 구매]");
+		System.out.println("[상품 추가]\t[상품 수정]\t[제품 구매]\t[프로그램 종료]");
 		
 	}
 
